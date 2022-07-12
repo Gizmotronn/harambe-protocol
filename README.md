@@ -1,2 +1,2 @@
-# gr8-template
-New html site for GR8 Property Management, in partnership with Willetton Football Club
+# Harambe Protocol
+Built with React/next.js & thirdweb for Riph.io
