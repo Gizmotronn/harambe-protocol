@@ -1,4 +1,5 @@
 import React from "react";
+
 import Card from "./components/Card";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";                                                                                                                                                                  
@@ -10,6 +11,8 @@ import Release from "./components/Release";
 import ScrollToTop from "./components/ScrollToTop";
 import Signup from "./components/Signup";
 import SuperRare from "./components/SuperRare";
+
+import "./scss/index.scss";
 
 export default function App() {
   return <div className="app-container">
