@@ -9,7 +9,7 @@ export default function Free() {
     <div className='container'>
       <div className='background'>
         <div className='ellipse pink'></div>
-        <div className='ellipse orange'></div>
+        <div className='ellipse green'></div>
       </div>
       <div className='content'>
         <div className='image'>
@@ -20,8 +20,26 @@ export default function Free() {
       </div>
     </div>
     <div className='card'>
-      <div className='card1'></div>
-      <div className='card2'></div>
+      <div className='card1'>
+        <Card
+          image={super1}
+          series="Harambe Series"
+          title="Harambian Man 1"
+          price={2.99}
+          tag={12983}
+          time={1}
+        />
+      </div>
+      <div className='card2'>
+        <Card
+          image={release2}
+          series="Zookeeper Series"
+          title="Ape Murderer 1"
+          price={3.95}
+          tag={12983}
+          time={2}
+        />
+      </div>
     </div>
   </div>
 }
