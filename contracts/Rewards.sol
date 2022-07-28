@@ -5,16 +5,14 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-
-contract N2DRewards is ERC20, ERC20Burnable, Ownable {
-
-  mapping(address => bool) controllers;
+contract Rewards is ERC20, ERC20Burnable, Ownable {
+  mapping(address => bool) controllers; // allows the attaching of addresses to the controller (can be changed after the minting of this contract)
   
-  constructor() ERC20("N2DRewards", "N2DR") { }
+  constructor() ERC20("Rewards", "RHPR") { } // Riph-Harambe-Protocol-Rewards
 
-  function mint(address to, uint256 amount) external {
-    require(controllers[msg.sender], "Only controllers can mint");
-    _mint(to, amount);
+  function mint(address to, uint256 amount) external { // mint the staking tokens
+    require(controllers[msg.sender], "Only controllers can mint"); // These tokens can be minted at any time by the contract controller
+    _mint(to, amount); // send the tokens directly to the staker upon claim() function in the nft staking contract
   }
 
   function burnFrom(address account, uint256 amount) public override {
