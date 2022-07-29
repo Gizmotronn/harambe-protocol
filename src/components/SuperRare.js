@@ -46,8 +46,7 @@ export default function SuperRare() {
       <div className='title-container'>
         <h2 className='title'>Harambians Super Rare Auction</h2>
         <p className='description'>
-          These four limited edition NFTs can be bid on via Opensea
-          <a href="#">Opensea</a>
+          These four limited edition NFTs can be bid on via Opensea <a href="#">Opensea</a> 
         </p>
       </div>
       <div className='cards'>
