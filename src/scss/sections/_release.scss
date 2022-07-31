@@ -27,6 +27,25 @@
                 font-weight: bold;
                 text-decoration: none;
                 display: flex;
+                gap: 1rem;
+                svg {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .image {
+            position: relative;
+            overflow: hidden;
+            img {
+                height: 24rem;
+            }
+            ellipse {
+                z-index: -1;
+                position: absolute;
+                height: 100%;
+                width: 28rem;
+                border-radius: 100%;
+                filter: blur(100px);
             }
         }
     }
