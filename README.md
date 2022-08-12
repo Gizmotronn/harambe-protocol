@@ -1,2 +1,1 @@
-Riph + Harambe Protocol. 
-by Liam Arbuckle
+Riph > Harambe protocol website. Designed by Liam Arbuckle of Signal Kinetics
