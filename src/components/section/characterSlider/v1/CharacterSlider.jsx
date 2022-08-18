@@ -1,5 +1,7 @@
 import { Slider, SliderItem } from "../../../../common/slider/Slider";
 import data from "../../../../assets/data/characterSlider/characterSlider";
+import SectionTitle from "../../../../common/sectionTitle";
+import HowToMintWrapper from "../../howToMint/v1/HowToMint.style";
 
 import CharacterSliderWrapper from "./CharacterSlider.style";
 
@@ -7,7 +9,7 @@ const CharacterSlider = () => {
   const settings = {
     dots: false,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -49,6 +51,14 @@ const CharacterSlider = () => {
   };
   return (
     <CharacterSliderWrapper>
+      <HowToMintWrapper>
+        <div className="container how_to_mint_container">
+          <SectionTitle
+            classNameName="md-pb-20"
+            title="OUR PARTNERS"
+          />
+        </div>
+      </HowToMintWrapper>
       <Slider {...settings}>
         {data?.map((item, i) => (
           <SliderItem key={i}>

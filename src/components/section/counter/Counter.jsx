@@ -27,11 +27,11 @@ const CoinInfoCounter = () => {
           ))}
         </ul>
       </div>
-      <img
+      {/*<img
         src={bgShape2}
         className="bg-shape shape-left shape-top"
         alt="bithu bg shape"
-      />
+          />*/}
       <img
         src={bgShape1}
         className="bg-shape shape-left shape-bottom"

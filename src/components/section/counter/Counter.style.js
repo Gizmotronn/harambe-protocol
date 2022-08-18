@@ -8,6 +8,7 @@ const CoinInfoCounterWrapper = styled.section`
   align-items: center;
   justify-content: center;
   position: relative;
+  border-radius: 15px;
 
   ul {
     display: flex;
@@ -41,6 +42,7 @@ const CoinInfoCounterWrapper = styled.section`
   }
   .bg-shape {
     position: absolute;
+    border-radius: 15px;
 
     &.shape-left {
       left: 0;

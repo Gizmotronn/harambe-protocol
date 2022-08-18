@@ -29,11 +29,11 @@ const HomeV1 = () => {
       {connectWalletModal && <ConnectWallet/> }
       <Header />
       {/*<center>
-        <video src={video} width="100%" height="30%"/>
-  </center>*/}
+        <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
+      </center> */}
       <Banner />
       <center>
-        <video src={video1} width="100%" height="30%"/>
+        <video src={video1} width="100%" height="30%" autoPlay="true" loop="true" border-radius="15px" />
       </center>
       <Counter />
       <CharacterSlider />
@@ -41,7 +41,7 @@ const HomeV1 = () => {
       <About />
       <RoadMap /> 
       <Team />
-      <FAQ />
+      {/*<FAQ />*/}
       <Footer />
     </Layout>
   );

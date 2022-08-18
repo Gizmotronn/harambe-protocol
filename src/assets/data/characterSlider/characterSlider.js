@@ -4,35 +4,38 @@ import characterThumb3 from "../../images/nft/carousel_avater3.png";
 import characterThumb4 from "../../images/nft/carousel_avater4.png";
 import characterThumb5 from "../../images/nft/carousel_avater5.png";
 import characterThumb6 from "../../images/nft/carousel_avater6.png";
-import harambe from '../../riph/harambe1.png'
+import harambe from '../../riph/harambe1.png';
+import partner1 from "../../riph/yarn.svg";
+import partner2 from "../../riph/tanks.png";
+import partner3 from "../../riph/pw.png";
 
 const data = [
   {
-    thumb: harambe,
+    thumb: partner1,
   },
   {
-    thumb: harambe,
+    thumb: partner2,
   },
   {
-    thumb: harambe,
+    thumb: partner3,
   },
   {
-    thumb: harambe,
+    thumb: partner1,
   },
   {
-    thumb: harambe,
+    thumb: partner2,
   },
   {
-    thumb: harambe,
+    thumb: partner3,
   },
   {
-    thumb: harambe,
+    thumb: partner1,
   },
   {
-    thumb: harambe,
+    thumb: partner2,
   },
   {
-    thumb: harambe,
+    thumb: partner3,
   },
 ];
 

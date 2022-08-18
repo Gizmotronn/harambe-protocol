@@ -15,9 +15,9 @@ const FooterStyleWrapper = styled.footer`
     .bithu_v1_main_footer_overlay {
       background: linear-gradient(
         180deg,
-        rgba(4, 15, 21, 0) 0%,
-        rgba(4, 14, 20, 0.270833) 50.52%,
-        #040c12 100%
+        rgba(13, 115, 119, 0) 0%,
+        rgba(173, 47, 47, 0.270833) 50.52%,
+        #0d7377 100%
       );
       height: 100%;
       width: 100%;

@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     background: #2D65F8;
     text-shadow: none;
     color: #ffffff;
-} 
+}  
 
 html,
 body {
@@ -21,7 +21,7 @@ body {
     line-height: 1.6;
     font-weight: 500;
     overflow-x: hidden; 
-    background-color: #040C12 !important;
+    background-color: #0b393b !important;
 }
 
 img {
