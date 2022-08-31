@@ -13,30 +13,12 @@ import FooterStyleWrapper from "./Footer.style";
 const Footer = () => {
   return (
     <FooterStyleWrapper>
-      {/*<CTA />*/}
-
       <div className="bithu_v1_main_footer">
-        <div className="bithu_v1_main_footer_overlay"></div>
-      <div className="three_charectre_img">
-          <img src={harambe} alt="bithu nft character" />
-  </div>
-
         <div className="footer_bottom">
           <div className="footer_bottom_content">
-            {/*<span className="footer_shapes_left">
-              <img src={harambe} alt="bithu nft footer" />
-  </span>*/}
-            {/*<span className="footer_shapes_right">
-              <img src={harambe} alt="bithu nft footer" />
-  </span>*/}
             <div className="container">
               <div className="footer_menu">
                 <div className="bottom_footer_left">
-                  <div className="footer_logo">
-                    <a href="# ">
-                      {/*<img src={footerLogo} alt="bithu nft logo" />*/}
-                    </a>
-                  </div>
                   <div className="copiright_text">
                     <p>Copyright ©2022 Riph.io & Liam Arbuckle</p>
                   </div>

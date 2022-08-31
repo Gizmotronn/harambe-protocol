@@ -52,12 +52,14 @@ const CharacterSlider = () => {
   return (
     <CharacterSliderWrapper>
       <HowToMintWrapper>
-        <div className="container how_to_mint_container">
-          <SectionTitle
-            classNameName="md-pb-20"
-            title="OUR PARTNERS"
-          />
-        </div>
+        <center>
+          <div className="container how_to_mint_container">
+            <SectionTitle
+              classNameName="md-pb-20"
+              title="OUR PARTNERS"
+            />
+          </div>
+        </center>
       </HowToMintWrapper>
       <Slider {...settings}>
         {data?.map((item, i) => (

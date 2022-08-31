@@ -14,7 +14,7 @@ const CommentStyleWrapper = styled.div`
         display: flex;
         flex-direction: column;
         font-size: 1.25rem;
-        font-family: "Bakbak One";
+        font-family: "roboto";
 
         span {
           font-size: 14px;

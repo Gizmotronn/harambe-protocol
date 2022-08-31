@@ -157,7 +157,7 @@ const AboutStyleWrapper = styled.section`
       padding: 35px;
 
       h3 {
-        font-family: "Bakbak One";
+        font-family: "roboto";
         font-style: normal;
         font-weight: 400;
         font-size: 24px;

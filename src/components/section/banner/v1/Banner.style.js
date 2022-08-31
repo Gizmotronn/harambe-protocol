@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 //import sectionBgImage from "../../../../assets/images/bg/h1_banner_bg.png";
-import sectionBgImage from "../../../../assets/riph/bg1.png";
+import sectionBgImage from "../../../../assets/images/bg/v1_footer_bg.png";
 
 const rotate = keyframes`
 from {
@@ -13,7 +13,6 @@ to {
 `;
 
 const BannerV1Wrapper = styled.section`
-  background: url(${sectionBgImage});
   min-height: 950px;
   width: 100%;
   background-size: cover;
@@ -32,7 +31,7 @@ const BannerV1Wrapper = styled.section`
     flex-direction: column;
 
     h2 {
-      font-family: "Bakbak One";
+      font-family: "roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 60px;
@@ -43,7 +42,7 @@ const BannerV1Wrapper = styled.section`
     }
 
     h3 {
-      font-family: "Bakbak One";
+      font-family: "roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 40px;
@@ -65,7 +64,7 @@ const BannerV1Wrapper = styled.section`
       flex-direction: column;
       margin-top: 37px;
       span {
-        font-family: "Bakbak One";
+        font-family: "roboto";
         font-size: 18px;
         line-height: 36px;
         text-transform: uppercase;

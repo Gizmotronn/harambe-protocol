@@ -2,11 +2,6 @@ import styled from "styled-components";
 import footerBG from "../../../../assets/images/bg/v1_footer_bg.png";
 
 const FooterStyleWrapper = styled.footer`
-  background: url(${footerBG});
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
   .bithu_v1_main_footer {
     position: relative;
     min-height: 400px;

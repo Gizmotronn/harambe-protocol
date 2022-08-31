@@ -7,7 +7,7 @@ const AboutCardStyleWrapper = styled.article`
   padding: 35px;
 
   h3 {
-    font-family: "Bakbak One";
+    font-family: "Myriad Pro";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -21,6 +21,7 @@ const AboutCardStyleWrapper = styled.article`
     span {
       margin-right: 13px;
     }
+    border-radius: 15px;
   }
 
   p {
@@ -33,6 +34,7 @@ const AboutCardStyleWrapper = styled.article`
     color: rgba(255, 255, 255, 0.8);
     line-height: 28px;
     margin-bottom: 0;
+    border-radius: 15px;
   }
 
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -58,12 +60,14 @@ const AboutCardStyleWrapper = styled.article`
       flex-direction: column;
       font-size: 20px;
     }
+    border-radius: 15px;
   }
 
   @media only screen and (max-width: 767px) {
     p {
       max-width: 100%;
     }
+    border-radius: 15px;
   }
 
   @media (max-width: 375px) {

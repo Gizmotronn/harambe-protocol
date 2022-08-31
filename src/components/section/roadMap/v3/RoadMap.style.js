@@ -46,7 +46,7 @@ const RoadMapStyleWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Bakbak One";
+    font-family: "roboto";
     color: #343a3e;
     text-align: center;
     background: rgba(255, 255, 255, 0.05);

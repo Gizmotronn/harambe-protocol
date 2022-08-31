@@ -70,7 +70,7 @@ const NavWrapper = styled.nav`
         cursor: pointer;
 
         a {
-          font-family: "Bakbak One";
+          font-family: "roboto";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -82,7 +82,7 @@ const NavWrapper = styled.nav`
 
         &:hover {
           a {
-            color: #00ffa3;
+            color: #cc1010;
           }
         }
 
@@ -102,11 +102,11 @@ const NavWrapper = styled.nav`
 
             .sub_menu_list {
               padding: 15px 20px;
-              background: #171f25;
+              background: #cc1010;
               flex-wrap: wrap;
               li {
                 a {
-                  font-family: "Bakbak One";
+                  font-family: "roboto";
                   font-style: normal;
                   font-weight: 400;
                   font-size: 16px;
@@ -117,7 +117,7 @@ const NavWrapper = styled.nav`
 
                 &:hover {
                   a {
-                    color: #00ffa3;
+                    color: #cc1010;
                   }
                 }
               }
@@ -146,7 +146,7 @@ const NavWrapper = styled.nav`
     button {
       color: #ffffff;
       text-transform: uppercase;
-      font-family: "Bakbak One";
+      font-family: "roboto";
       font-weight: 400;
       font-size: 16px;
     }

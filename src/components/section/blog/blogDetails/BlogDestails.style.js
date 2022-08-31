@@ -14,7 +14,7 @@ const BlogDetailsStyleWrapper = styled.div`
   }
   a {
     display: inline-block;
-    font-family: "Bakbak One";
+    font-family: "roboto";
     color: #ffffff;
     transition: all 0.4s;
     &:hover {
@@ -53,7 +53,7 @@ const BlogDetailsStyleWrapper = styled.div`
     margin: 50px 0 10px;
     a,
     span {
-      font-family: "Bakbak One";
+      font-family: "roboto";
       display: flex;
       align-items: center;
       column-gap: 15px;

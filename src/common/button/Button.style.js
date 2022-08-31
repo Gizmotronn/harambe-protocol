@@ -8,12 +8,13 @@ const ButtonWrapper = styled.button`
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   align-items: center;
-  font-family: "Bakbak One";
+  font-family: "roboto";
   line-height: 22px;
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
   box-sizing: border-box;
+  border-radius: 15px;
   overflow: hidden;
   z-index: 1;
 
@@ -133,7 +134,7 @@ const ButtonWrapper = styled.button`
 
       &:hover {
         &::before {
-          background: #00eb96;
+          background: #cc1010;
         }
       }
     `} 
@@ -143,6 +144,7 @@ const ButtonWrapper = styled.button`
       background: #5865f2;
       color: #ffffff;
       border: none;
+      border-radius: 15px;
 
       .hover-shape {
         &.shape-black {

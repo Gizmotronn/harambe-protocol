@@ -64,7 +64,7 @@ const MintModalStyleWrapper = styled.div`
 
   .modal_header {
     h2 {
-      font-family: "Bakbak One";
+      font-family: "roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 24px;
@@ -145,7 +145,7 @@ const MintModalStyleWrapper = styled.div`
             outline: none;
             background: transparent;
             padding: 0px;
-            font-family: "Bakbak One";
+            font-family: "roboto";
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -168,7 +168,7 @@ const MintModalStyleWrapper = styled.div`
             background: transparent;
             padding: 0px 19px;
             outline: none;
-            font-family: "Bakbak One";
+            font-family: "roboto";
             font-style: normal;
             font-weight: 400;
             font-size: 16px;

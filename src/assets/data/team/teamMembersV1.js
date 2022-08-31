@@ -72,7 +72,7 @@ const data = [
   },
   {
     avatar: avatarThumb4,
-    name: "Test",
+    name: "Anna",
     designation: "Co-Artist",
     socialLinks: [
       {
@@ -88,83 +88,8 @@ const data = [
         url: "#",
       },
     ],
-  },
-  {
-    avatar: avatarThumb5,
-    name: "Test",
-    designation: "UI Designer",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    avatar: avatarThumb6,
-    name: "Test",
-    designation: "Software Engineer",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    avatar: avatarThumb7,
-    name: "Test",
-    designation: "Blockchain Dev",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },
-  {
-    avatar: avatarThumb8,
-    name: "Test",
-    designation: "SEO Engineer",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },
+  }
+  
 ];
 
 export default data;

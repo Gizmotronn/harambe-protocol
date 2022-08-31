@@ -17,6 +17,7 @@ import MetamaskModal from "../common/modal/metamask/MetamaskModal";
 import ConnectWallet from "../common/modal/metamask/ConnectWallet";
 import video from "../assets/riph/video.mp4";
 import video1 from "../assets/riph/video2.mp4";
+import roadmapImg from "../assets/riph/roadmap.png";
 
 const HomeV1 = () => {
   const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
@@ -28,18 +29,19 @@ const HomeV1 = () => {
       {metamaskModalVisibility && <MetamaskModal/> }
       {connectWalletModal && <ConnectWallet/> }
       <Header />
-      {/*<center>
+      <center>
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
-      </center> */}
+      </center>
       <Banner />
+      <CharacterSlider />
       <center>
         <video src={video1} width="100%" height="30%" autoPlay="true" loop="true" border-radius="15px" />
       </center>
       <Counter />
-      <CharacterSlider />
       <HowToMint />
       <About />
-      <RoadMap /> 
+      <img src={roadmapImg} width="100%" />
+      {/*<RoadMap /> */}
       <Team />
       {/*<FAQ />*/}
       <Footer />

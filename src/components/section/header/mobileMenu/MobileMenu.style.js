@@ -71,7 +71,7 @@ const MobileMenuStyleWrapper = styled.div`
         position: relative;
 
         a {
-          font-family: "Bakbak One";
+          font-family: "roboto";
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -83,7 +83,7 @@ const MobileMenuStyleWrapper = styled.div`
           transition: all 0.4s;
 
           &:hover {
-            color: #00ffa3;
+            color: #cc1010;
           }
         }
 
@@ -105,7 +105,7 @@ const MobileMenuStyleWrapper = styled.div`
             padding: 0px 25px;
             a {
               &:hover {
-                color: #00ffa3;
+                color: #cc1010;
               }
             }
           }

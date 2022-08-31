@@ -9,14 +9,14 @@ const PageHeaderStyleWrapper = styled.div`
   margin-top: 90px;
 
   .breadcrumb_area {
-    font-family: "Bakbak One";
+    font-family: "roboto";
 
     .breadcrumb_menu {
       text-transform: uppercase;
       display: flex;
       align-items: center;
       font-size: 18px;
-      color: #00ffa3;
+      color: #cc1010;
       a {
         color: rgba(255, 255, 255, 0.7);
         text-decoration: none;

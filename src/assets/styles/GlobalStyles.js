@@ -1,6 +1,9 @@
 import { createGlobalStyle } from "styled-components";
 
+//323232
 const GlobalStyles = createGlobalStyle` 
+
+
 
 ::-moz-selection {
     background: #2D65F8;
@@ -21,7 +24,7 @@ body {
     line-height: 1.6;
     font-weight: 500;
     overflow-x: hidden; 
-    background-color: #0b393b !important;
+    background-color: #0d0c0c !important;
 }
 
 img {
@@ -34,7 +37,6 @@ p {
     line-height: 1.8;  
 }
 
-
 h1,
 h2,
 h3,
@@ -43,7 +45,7 @@ h5,
 h6 {
     margin: 0px;
     line-height: 1.35;
-    font-family: 'Bakbak One', cursive;
+    font-family: 'roboto', cursive;
 }
 
 a {

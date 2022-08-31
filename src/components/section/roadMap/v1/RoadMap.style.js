@@ -32,7 +32,7 @@ const RoadMapStyleWrapper = styled.section`
       column-gap: 10px;
       align-items: center;
       h3 {
-        font-family: "Bakbak One";
+        font-family: "roboto";
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -44,7 +44,7 @@ const RoadMapStyleWrapper = styled.section`
     }
 
     h4 {
-      font-family: "Bakbak One";
+      font-family: "roboto";
       font-style: normal;
       font-weight: 400;
       font-size: 24px;
