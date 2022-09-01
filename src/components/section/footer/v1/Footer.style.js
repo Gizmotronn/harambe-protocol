@@ -25,16 +25,6 @@ const FooterStyleWrapper = styled.footer`
       text-align: center;
     }
 
-    /* footer bottom */
-    .footer_bottom {
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      min-height: 100px;
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(20px);
-    }
-
     .footer_bottom_content {
       position: relative;
       height: 100%;
@@ -187,9 +177,7 @@ const FooterStyleWrapper = styled.footer`
 
   @media only screen and (max-width: 767px) {
     .bithu_v1_main_footer {
-      .footer_bottom {
-        min-height: 140px;
-      }
+      
       .footer_menu {
         padding: 20px 0px;
         flex-direction: column-reverse;

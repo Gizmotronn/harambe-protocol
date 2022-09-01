@@ -1,6 +1,4 @@
 import Counter from "../../../common/counter";
-import bgShape1 from "../../../assets/images/icon/square_shape_1.png";
-import bgShape2 from "../../../assets/images/icon/square_shape_2.png";
 
 import CoinInfoCounterWrapper from "./Counter.style";
 import coinInfoCounterData from "../../../assets/data/coinInfoCounter.json";
@@ -27,26 +25,6 @@ const CoinInfoCounter = () => {
           ))}
         </ul>
       </div>
-      <img
-        src={bgShape2}
-        className="bg-shape shape-left shape-top"
-        alt="bithu bg shape"
-      />
-      <img
-        src={bgShape1}
-        className="bg-shape shape-left shape-bottom"
-        alt="bithu bg shape"
-      />
-      <img
-        src={bgShape2}
-        className="bg-shape shape-right shape-top"
-        alt="bithu bg shape"
-      />
-      <img
-        src={bgShape1}
-        className="bg-shape shape-right shape-bottom"
-        alt="bithu bg shape"
-      />
     </CoinInfoCounterWrapper>
   );
 };

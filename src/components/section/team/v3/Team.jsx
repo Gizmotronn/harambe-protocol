@@ -10,8 +10,7 @@ const Team = () => {
         <div className="v1_team_overlay">
           <div className="container">
             <SectionTitle
-              title="MEET THE TEAM"
-              subtitle="TEAM MEMBERS"
+              title="OUR TEAM"
               isCenter={true}
               className="text-center"
             />

@@ -39,26 +39,7 @@ const CoinInfoCounterWrapper = styled.section`
       }
     }
   }
-  .bg-shape {
-    position: absolute;
-
-    &.shape-left {
-      left: 0;
-    }
-
-    &.shape-top {
-      top: 0;
-    }
-    &.shape-bottom {
-      bottom: 0;
-    }
-
-    &.shape-right {
-      right: 0;
-      transform: rotate(90deg);
-    }
-  }
-
+  
   @media only screen and (max-width: 991px) {
     ul {
       li {

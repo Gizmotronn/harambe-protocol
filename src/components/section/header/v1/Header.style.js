@@ -15,7 +15,7 @@ const NavWrapper = styled.nav`
       position: fixed;
       top: 0;
       width: 100%;
-      background: rgba(13, 115, 119, 0.8);
+      background: rgba(33, 33, 33, 0.8);
       backdrop-filter: blur(15px);
       z-index: 1000;
       margin-top: 0px;
@@ -144,7 +144,7 @@ const NavWrapper = styled.nav`
     align-items: center;
     min-width: 284px;
     button {
-      color: #ffffff;
+      color: #FFFFFF;
       text-transform: uppercase;
       font-family: "roboto";
       font-weight: 400;
@@ -173,7 +173,7 @@ const NavWrapper = styled.nav`
       min-width: 150px;
       border: none;
       margin-left: 20px;
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(150, 35, 35, 0.8);
       border-radius: 10px;
 
       svg {

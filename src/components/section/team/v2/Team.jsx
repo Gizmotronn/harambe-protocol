@@ -15,7 +15,6 @@ const Team = () => {
           <SectionTitle
             isCenter={true}
             title="MEET THE TEAM"
-            subtitle="TEAM MEMBERS"
             className="text-center"
           />
           <div className="bithu_team_content">

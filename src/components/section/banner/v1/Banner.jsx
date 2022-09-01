@@ -12,6 +12,7 @@ import { totalMintCount } from '../../../../utils/web3mint';
 import harambe from '../../../../assets/riph/harambe1.png'
 import video from "../../../../assets/riph/video.mp4";
 import riphbackground from "../../../../assets/riph/bg1.png";
+import clickAudio from "../../../../assets/riph/sound1.mp3";
 
 const Banner = () => {
   const { mintModalHandle, connectWalletModalHanlde, account } = useModal();
@@ -32,7 +33,6 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="bithu_v1_baner_left">
-              
               <h2>Harambe Protocol</h2>
               <h3>
                 <span className="count">
@@ -51,7 +51,7 @@ const Banner = () => {
                   <Button lg variant="mint" onClick={() => connectWalletModalHanlde()}>
                     {" "}
                     Mint now
-                  </Button>
+                  </Button> 
                 }
                 
                 <Button lg variant="outline" border-radius="20px">
@@ -81,9 +81,9 @@ const Banner = () => {
                     </span>
               </div>
                 </div>*/}
-                <div className="bithu_v1_baner_right_img_bg">
+                {/*<div className="bithu_v1_baner_right_img_bg">
                   <img src={homeImageBG} alt="" />
-                </div>
+              </div>*/}
                 <div className="bithu_v1_baner_right_img">
                   <img src={harambe} alt="avater" />
                 </div>

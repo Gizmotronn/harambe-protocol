@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import avatarThumb1 from "../../images/team/crew_avatar1.png";
 import avatarThumb2 from "../../images/team/crew_avatar2.png";
 import avatarThumb3 from "../../images/team/crew_avatar3.png";
-import avatarThumb4 from "../../images/team/crew_avatar4.png";
+import avatarThumb4 from "../../images/team/v2_team_4.png";
 import avatarThumb5 from "../../images/team/crew_avatar5.png";
 import avatarThumb6 from "../../images/team/crew_avatar6.png";
 import avatarThumb7 from "../../images/team/crew_avatar7.png";
@@ -73,7 +73,7 @@ const data = [
   {
     avatar: avatarThumb4,
     name: "Anna",
-    designation: "Co-Artist",
+    designation: "Community",
     socialLinks: [
       {
         icon: <FaLinkedinIn />,

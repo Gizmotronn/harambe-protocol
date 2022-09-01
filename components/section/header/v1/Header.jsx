@@ -5,7 +5,7 @@ import { MdNotes } from "react-icons/md";
 import Button from "../../../../common/button";
 import NavWrapper from "./Header.style";
 import MobileMenu from "../mobileMenu/MobileMenu";
-import logo from "../../../../assets/images/logo.png";
+import logo from "../../../../assets/riph/sitelogo.png";
 import { isMetaMaskInstalled } from '../../../../config';
 import Dropdown from 'react-bootstrap/Dropdown';
 import video from "../../../../assets/riph/video.mp4";
@@ -55,7 +55,7 @@ const Header = () => {
           <div className="bithu_menu_left_sect">
             <div className="logo">
               <a href="/">
-                {/*<img src={logo} alt="bithu nft logo" />*/}
+                <img src={logo} alt="bithu nft logo" />
               </a>
             </div>
           </div>

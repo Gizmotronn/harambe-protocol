@@ -8,7 +8,7 @@ import CharacterSlider from "../components/section/characterSlider/v1";
 import HowToMint from "../components/section/howToMint/v1";
 import About from "../components/section/about/v1";
 import RoadMap from "../components/section/roadMap/v1";
-import Team from "../components/section/team/v1";
+import Team from "../components/section/team/v3";
 import FAQ from "../components/section/faq/v1";
 import Footer from "../components/section/footer/v1";
 import MintNowModal from "../common/modal/mintNowModal";
@@ -33,10 +33,10 @@ const HomeV1 = () => {
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
       </center>
       <Banner />
-      <CharacterSlider />
       <center>
         <video src={video1} width="100%" height="30%" autoPlay="true" loop="true" border-radius="15px" />
       </center>
+      <CharacterSlider />
       <Counter />
       <HowToMint />
       <About />

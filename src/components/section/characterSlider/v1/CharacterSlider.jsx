@@ -16,7 +16,7 @@ const CharacterSlider = () => {
     centerMode: true,
     centerPadding: "0px",
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -63,7 +63,7 @@ const CharacterSlider = () => {
         {data?.map((item, i) => (
           <SliderItem key={i}>
             <div className="character-thumb">
-              <img src={item.thumb} alt="bithu nft character" />
+              <img src={item.thumb}/>
             </div>
           </SliderItem>
         ))}
