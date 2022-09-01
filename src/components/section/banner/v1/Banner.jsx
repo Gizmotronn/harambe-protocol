@@ -15,6 +15,7 @@ import riphbackground from "../../../../assets/riph/bg1.png";
 import clickAudio from "../../../../assets/riph/sound1.mp3";
 
 const Banner = () => {
+  const audio = new Audio(clickAudio);
   const { mintModalHandle, connectWalletModalHanlde, account } = useModal();
   const [remaining, setRemaining] = useState(0);
 
@@ -48,7 +49,7 @@ const Banner = () => {
                     {" "}
                     Mint now
                   </Button> :
-                  <Button lg variant="mint" onClick={() => connectWalletModalHanlde()}>
+                  <Button lg variant="mint" onClick={() => audio.play()}> {/*onClick={() => connectWalletModalHanlde() -> Later, add these two onClick events in the same function*/} 
                     {" "}
                     Mint now
                   </Button> 
