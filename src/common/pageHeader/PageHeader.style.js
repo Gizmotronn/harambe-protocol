@@ -9,7 +9,7 @@ const PageHeaderStyleWrapper = styled.div`
   margin-top: 90px;
 
   .breadcrumb_area {
-    font-family: "roboto";
+    font-family: "PT Sans", sans-serif;
 
     .breadcrumb_menu {
       text-transform: uppercase;

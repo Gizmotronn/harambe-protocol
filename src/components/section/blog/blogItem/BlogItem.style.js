@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const BlogItemStyleWrapper = styled.article`
   color: rgba(255, 255, 255, 0.7);
-  font-family: "roboto";
+  font-family: "PT Sans";
   a,
   p,
   span {
@@ -11,7 +11,7 @@ const BlogItemStyleWrapper = styled.article`
   }
   a,
   span {
-    font-family: "roboto";
+    font-family: "PT Sans";
   }
 
   .blog_thumb {

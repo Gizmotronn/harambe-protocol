@@ -7,14 +7,14 @@ const BlogDetailsStyleWrapper = styled.div`
   }
   color: rgba(255, 255, 255, 0.8);
   p {
-    font-family: "Inter";
+    font-family: "PT Sans";
     font-weight: 500;
     font-size: 16px;
     margin: 20px 0;
   }
   a {
     display: inline-block;
-    font-family: "roboto";
+    font-family: "PT Sans";
     color: #ffffff;
     transition: all 0.4s;
     &:hover {
@@ -53,7 +53,7 @@ const BlogDetailsStyleWrapper = styled.div`
     margin: 50px 0 10px;
     a,
     span {
-      font-family: "roboto";
+      font-family: "PT Sans";
       display: flex;
       align-items: center;
       column-gap: 15px;

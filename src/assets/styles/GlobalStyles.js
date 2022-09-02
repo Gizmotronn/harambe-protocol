@@ -45,7 +45,7 @@ h5,
 h6 {
     margin: 0px;
     line-height: 1.35;
-    font-family: 'roboto', cursive;
+    font-family: 'PT Sans', sans-serif;
 }
 
 a {
@@ -63,7 +63,7 @@ ul, ol {
 
 html,
 body, p, a{
-    font-family: 'Inter', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
 } 

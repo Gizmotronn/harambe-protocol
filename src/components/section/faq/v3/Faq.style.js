@@ -5,7 +5,7 @@ const FAQStyleWrapper = styled.section`
   padding-bottom: 130px;
 
   .bithu_title_text {
-    font-family: "roboto";
+    font-family: "PT Sans";
     color: #fff;
     margin-top: 50px;
     span {
@@ -14,7 +14,7 @@ const FAQStyleWrapper = styled.section`
         text-decoration: none;
         color: #00fca1;
         padding-left: 10px;
-        font-family: 'roboto';
+        font-family: 'PT Sans';
       }
     }
   }

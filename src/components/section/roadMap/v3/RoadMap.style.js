@@ -46,7 +46,7 @@ const RoadMapStyleWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "roboto";
+    font-family: "PT Sans";
     color: #343a3e;
     text-align: center;
     background: rgba(255, 255, 255, 0.05);
@@ -73,7 +73,7 @@ const RoadMapStyleWrapper = styled.section`
     position: relative;
     z-index: 9;
     p {
-      font-family: "Inter";
+      font-family: "PT Sans";
       font-style: normal;
       font-weight: 500;
       font-size: 16px;

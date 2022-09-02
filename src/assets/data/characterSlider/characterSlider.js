@@ -5,7 +5,7 @@ import characterThumb4 from "../../images/nft/carousel_avater4.png";
 import characterThumb5 from "../../images/nft/carousel_avater5.png";
 import characterThumb6 from "../../images/nft/carousel_avater6.png";
 import harambe from '../../riph/harambe1.png';
-import partner1 from "../../riph/yarn.svg";
+import partner1 from "../../riph/rfox_logo.png";
 import partner2 from "../../riph/tanks.png";
 import partner3 from "../../riph/pw.png";
 

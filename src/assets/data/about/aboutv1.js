@@ -14,12 +14,12 @@ import harambe from "../../riph/harambe1.png"
         {
             //icon: aboutCardIcon2,
             title: "TOKEN STAKING",
-            text: 'ONCE YOU OWN $RIPH YOU WILL BE ABLE TO stake it FOR PASSIVE REWARDS. THE STAKING CONTRACT ADDRESS IS 0x10964C2ffDEA1e99B5e26D102516d9b03368915f'
+            text: 'ONCE YOU OWN $RIPH YOU WILL BE ABLE TO STAKE IT FOR PASSIVE REWARDS. THE STAKING CONTRACT ADDRESS IS 0x10964C2ffDEA1e99B5e26D102516d9b03368915f'
         },
         {
             //icon: aboutCardIcon3,
             title: "HARAMBE",
-            text: "CREATED IN HONOR OF HARAMBE, WE'RE dedicated to passively funding gorilla conservation efforts through our nft revenue."
+            text: "CREATED IN HONOR OF HARAMBE, WE'RE DEDICATED TO PASSIVELY FUNDING GORILLA CONSERVATION EFFORTS THROUGH OUR NFT REVENUE."
         }
     ]
 }

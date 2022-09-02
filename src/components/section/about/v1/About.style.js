@@ -17,7 +17,7 @@ const AboutStyleWrapper = styled.section`
     margin-top: 46px;
 
     p {
-      font-family: "Inter";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -157,7 +157,7 @@ const AboutStyleWrapper = styled.section`
       padding: 35px;
 
       h3 {
-        font-family: "roboto";
+        font-family: "PT Sans", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
@@ -174,7 +174,7 @@ const AboutStyleWrapper = styled.section`
       }
 
       p {
-        font-family: "Inter";
+        font-family: "PT Sans", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;

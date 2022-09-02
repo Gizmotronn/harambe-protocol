@@ -31,7 +31,7 @@ const BannerV1Wrapper = styled.section`
     flex-direction: column;
 
     h2 {
-      font-family: "roboto";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 60px;
@@ -42,7 +42,7 @@ const BannerV1Wrapper = styled.section`
     }
 
     h3 {
-      font-family: "roboto";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 40px;
@@ -64,7 +64,7 @@ const BannerV1Wrapper = styled.section`
       flex-direction: column;
       margin-top: 37px;
       span {
-        font-family: "roboto";
+        font-family: "PT Sans", sans-serif;
         font-size: 18px;
         line-height: 36px;
         text-transform: uppercase;

@@ -43,7 +43,7 @@ const HomeV1 = () => {
       <img src={roadmapImg} width="100%" />
       {/*<RoadMap /> */}
       <Team />
-      {/*<FAQ />*/}
+      <FAQ />
       <Footer />
     </Layout>
   );

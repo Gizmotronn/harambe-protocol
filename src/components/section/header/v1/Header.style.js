@@ -70,7 +70,7 @@ const NavWrapper = styled.nav`
         cursor: pointer;
 
         a {
-          font-family: "roboto";
+          font-family: "PT Sans", sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
@@ -106,7 +106,7 @@ const NavWrapper = styled.nav`
               flex-wrap: wrap;
               li {
                 a {
-                  font-family: "roboto";
+                  font-family: "PT Sans", sans-serif;
                   font-style: normal;
                   font-weight: 400;
                   font-size: 16px;
@@ -146,7 +146,7 @@ const NavWrapper = styled.nav`
     button {
       color: #FFFFFF;
       text-transform: uppercase;
-      font-family: "roboto";
+      font-family: "PT Sans", sans-serif;
       font-weight: 400;
       font-size: 16px;
     }

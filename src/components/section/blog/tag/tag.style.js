@@ -8,7 +8,7 @@ const TagStyleWrapper = styled.div`
   row-gap: 10px;
 
   a {
-    font-family: "Inter";
+    font-family: "PT Sans";
     display: inline-block;
     background: #1d242a;
     padding: 15px 15px;

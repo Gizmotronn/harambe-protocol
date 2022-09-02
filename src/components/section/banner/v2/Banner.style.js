@@ -22,7 +22,7 @@ const BannerStyleWrapper = styled.section`
       margin-bottom: 20px;
     }
     h2 {
-      font-family: "roboto";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 60px;
@@ -76,7 +76,7 @@ const BannerStyleWrapper = styled.section`
       text-transform: uppercase;
       color: #ffffff;
       .countBox {
-        font-family: "roboto";
+        font-family: "PT Sans";
         font-size: 40px !important;
         display: flex;
         flex-direction: row-reverse;

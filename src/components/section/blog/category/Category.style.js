@@ -7,7 +7,7 @@ const CategoryWrapper = styled.div`
     row-gap: 15px;
     a {
       transition: 0.4s;
-      font-family: "Inter";
+      font-family: "PT Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 16px;

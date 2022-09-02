@@ -21,7 +21,7 @@ const TeamMemberStyleWrapper = styled.article`
     }
 
     h4 {
-      font-family: "Inter";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       text-align: center;
       font-size: 16px;

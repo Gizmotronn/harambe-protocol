@@ -159,7 +159,7 @@ const BannerStyleWrapper = styled.section`
   .banner-bottom-text {
     color: rgba(255, 255, 255, 0.8);
     font-size: 18px;
-    font-family: "roboto";
+    font-family: "PT Sans";
     max-width: 240px;
     margin-top: 52px;
     line-height: 1.5;
@@ -176,7 +176,7 @@ const BannerStyleWrapper = styled.section`
       color: rgba(255, 255, 255, 0.2);
     }
     .countBox {
-      font-family: "roboto";
+      font-family: "PT Sans";
       font-size: 40px !important;
       display: flex;
       justify-content: flex-end;

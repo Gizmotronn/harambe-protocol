@@ -71,7 +71,7 @@ const MobileMenuStyleWrapper = styled.div`
         position: relative;
 
         a {
-          font-family: "roboto";
+          font-family: "PT Sans", sans-serif;
           font-style: normal;
           font-weight: 400;
           font-size: 16px;

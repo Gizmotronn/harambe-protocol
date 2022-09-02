@@ -15,7 +15,7 @@ import KYU from "../../riph/KYU.jpg";
 const data = [
   {
     avatar: Jai,
-    name: "Jai Turner",
+    name: "Jai Turnor",
     designation: "Founder",
     socialLinks: [
       {

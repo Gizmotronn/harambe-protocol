@@ -22,7 +22,7 @@ const CoinInfoCounterWrapper = styled.section`
     li {
       width: 25%;
       h3 {
-        font-family: "roboto";
+        font-family: "PT Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
@@ -31,7 +31,7 @@ const CoinInfoCounterWrapper = styled.section`
         color: #ffffff;
       }
       h4 {
-        font-family: "roboto";
+        font-family: "PT Sans";
         font-style: normal;
         font-weight: 400;
         font-size: 18px;

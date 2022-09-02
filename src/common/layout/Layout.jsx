@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
           crossorigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" 
+          href="https://fonts.googleapis.com/css2?family=PT Sans&display=swap" rel="stylesheet" 
         />
         <link
           rel="stylesheet"

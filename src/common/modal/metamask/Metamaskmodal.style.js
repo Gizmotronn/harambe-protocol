@@ -64,7 +64,7 @@ const MetamaskModalStyle = styled.div`
 
   .modal_header {
     h2 {
-      font-family: "roboto";
+      font-family: "PT Sans";
       font-style: normal;
       font-weight: 400;
       font-size: 24px;
@@ -111,7 +111,7 @@ const MetamaskModalStyle = styled.div`
 
   .modal_body {
     p {
-      font-family: "Inter";
+      font-family: "PT Sans";
       font-style: normal;
       font-weight: 500;
       font-size: 16px;

@@ -53,7 +53,7 @@ const FAQ = () => {
             </Accordion>
 
             <div className="faq_bg_wattermark">
-              <img src={faqBgThumb} alt="bithu nft faq" />
+              {/*<img src={faqBgThumb} alt="bithu nft faq" />*/}
             </div>
           </div>
         </div>

@@ -14,11 +14,11 @@ const CommentStyleWrapper = styled.div`
         display: flex;
         flex-direction: column;
         font-size: 1.25rem;
-        font-family: "roboto";
+        font-family: "PT Sans";
 
         span {
           font-size: 14px;
-          font-family: "Inter";
+          font-family: "PT Sans";
           font-weight: 500;
         }
       }
@@ -36,7 +36,7 @@ const CommentStyleWrapper = styled.div`
         .replay_btn {
           display: flex;
           align-items: center;
-          font-family: "Inter";
+          font-family: "PT Sans";
           text-transform: uppercase;
           font-size: 14px;
           column-gap: 10px;
