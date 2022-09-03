@@ -1,31 +1,44 @@
-import React from "react";
+import './App.css';
+import { useState, useEffect, useMemo } from 'react';
+import MainMint from './components/MainMint';
+import NavBar from './components/NavBar';
 
-import Card from "./components/Card";
-import Clients from "./components/Clients";
-import Footer from "./components/Footer";                                                                                                                                                                  
-import Free from "./components/Free";
-import Home from "./components/Home";
-import Like from "./components/Like";
-import Navbar from "./components/Navbar";
-import Release from "./components/Release";
-import ScrollToTop from "./components/ScrollToTop";
-import Signup from "./components/Signup";
-import SuperRare from "./components/SuperRare";
+function App() {
+  // Original minting components
 
-import "./scss/index.scss";
+  const [accounts, setAccounts] = useState([]); // Any updates on the frontend (ui) -> use useState to update the value on the frontend (e.g. when the user logins/authenticates)
 
-export default function App() {
-  return <div className="app-container">
-    <ScrollToTop />
-    <Navbar />
-    <Home />
-    <Free />
-    <Clients />
-    <SuperRare />
-    <Release />
-    <Release />
-    <Like />
-    <Signup />
-    <Footer />
-  </div>;
+  const isConnected = Boolean(accounts[0]); // Address of wallet that is connected
+
+  async function connectAccount() {
+      if (window.ethereum) {
+          const accounts = await window.ethereum.request({
+              method: "eth_requestAccounts", // Give all the accounts that exist in the user's metamask extension
+          });
+          console.log(accounts);
+          setAccounts(accounts);
+      }
+  }
+
+  return (
+    <div className="overlay">
+      <div className="App">
+        <NavBar accounts={accounts} setAccounts={setAccounts} />
+        <MainMint accounts={accounts} setAccounts={setAccounts} />
+        {/* Create a new component that only shows if the user has the NFT in their wallet */}
+        { isConnected ? (
+          <div>
+
+          </div>
+        ) : (
+          <div>
+            
+          </div>
+        )}
+      </div>
+      <div className="moving-background"></div>
+    </div>
+  );
 }
+
+export default App;

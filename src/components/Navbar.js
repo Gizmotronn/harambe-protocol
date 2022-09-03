@@ -1,30 +1,99 @@
-import React, { useState } from 'react'
-import { GiHamburgerMenu } from "react-icons/gi";
-import { MdClose } from "react-icons/md";
-import { ImSun } from "react-icons/im"
-import { BsFillMoonFill } from "react-icons/bs";
-import logo from '../assets/public/logo.png';
+import React from "react";
+import { Box, Button, Flex, Image, Link, Spacer } from '@chakra-ui/react';
+import Facebook from "../assets/social-media-icons/facebook_32x32.png";
+import Twitter from "../assets/social-media-icons/twitter_32x32.png";
+import Email from "../assets/social-media-icons/email_32x32.png";
+import Github from "../assets/social-media-icons/github.png";
+import Documentation from "../assets/social-media-icons/documentation.png";
+import Keybase from "../assets/social-media-icons/keybase.png";
 
-export default function Navbar() {
-  const [navState, setNavState] = useState(false);
-  
-  return <nav>
-    <div className='brand-container'>
-      <div className='brand'>
-        <img src={logo} alt="logo" />
-      </div>
-      <div className='toggle-container'>
-        <div className='toggle'></div>
-        <div className='mode'></div>
-      </div>
-    </div>
-    <div className='links-container'>
-      <ul className='links'>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Launch</a></li>
-        <li><a href="#">Sign up</a></li>
-      </ul>
-    </div>
-  </nav>
+const NavBar = ({ accounts, setAccounts }) => {
+    const isConnected = Boolean(accounts[0]); // Address of wallet that is connected
+
+    async function connectAccount() {
+        if (window.ethereum) {
+            const accounts = await window.ethereum.request({
+                method: "eth_requestAccounts", // Give all the accounts that exist in the user's metamask extension
+            });
+            console.log(accounts);
+            setAccounts(accounts);
+        }
+    }
+
+    return (
+        <Flex justify="space-between" align="center" padding="30px">
+            {/*Left side of navbar */}
+            <Flex justify="space-around" width="40%" padding="0 75px">
+                {/*<Link href="https://docs.skinetics.tech/whitepaper" target="_blank">
+                    <Image src={Documentation} boxSize="42px" margin="0 15px" />
+                </Link>
+                <Link href="https://github.com/signal-k" target="_blank">
+                    <Image src={Github} boxSize="42px" margin="0 15px" />
+    </Link>*/}
+            </Flex> {/*Github, Dribbble, Deviantart??? Opensea*/}
+            
+            {/* Right side of navbar */}
+            <center>
+                <Flex
+                    justify="space-around"
+                    align="center"
+                    width="60%"
+                    padding="30px 30px 30px 30px"
+                >
+                <Link style={{ textDecoration: 'none' }} color="#ffffff" href="mailto:liam@skinetics.tech" target="_blank">
+                        <Box margin="0 15px">Main site</Box>
+                    </Link>
+                    <Spacer />
+
+                    <Link style={{ textDecoration: 'none' }} color="#ffffff" href="https://docs.skinetics.tech/whitepaper" target="_blank">
+                        <Box margin="0 15px">Whitepaper</Box>
+                    </Link>
+                    <Spacer />
+                </Flex>
+            </center>
+            <Flex
+                justify="space-around"
+                align="center"
+                width="40%"
+                padding="30px 30px 30px 30px"
+            >
+                
+                 
+
+                {/* Connected */} {/* If connected, add Memberstack login for docs */}
+                {isConnected ? ( // Insert custom links for team members if logged in with the correct tokens
+                <Flex
+                    justify="space-around"
+                    align="center"
+                    width="40%"
+                    padding="30px 30px 30px 30px"
+                >
+                    <Link style={{ textDecoration: 'none' }} color="#ffffff" href="https://dao.emulsion.space" target="_blank">
+                        <Box margin="0 15px">Stake</Box>
+                    </Link>
+                    <Spacer />
+
+                    <Box margin="0 15px">Connected</Box>
+                </Flex>
+                    
+                    
+                    /*<Link href="">
+                    
+    </Link>*/
+                ) : (
+                    <Button
+                        backgroundColor="#c53535"
+                        borderRadius="15px"
+                        color="white"
+                        cursor="pointer"
+                        fontFamily="inherit" 
+                        padding="15px"
+                        margin="0 15px"
+                    onClick={connectAccount}>Connect</Button>
+                )}
+            </Flex>
+        </Flex>
+    )
 }
+
+export default NavBar;
