@@ -1,16 +1,17 @@
 import { useState } from "react";
 import { ethers, BigNumber } from 'ethers';
 import roboPunksNFT from '../RoboPunksNFT.json'; // Grab the ABI from the contract
+import WristbandNFT from '../WristbandNFT.json';
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 
 const roboPunksNFTAddress = "0xA0Ba4E895447770cBf0ff998d3DBa0a08496CE90";
 //const roboPunksNFTAddress = "0xd4F18cF04B9C74d5B69775BBfFbf433Ff24D8dbC";
 
-const MainStake = ({ accounts, setAccounts }) => {
-    const [stakeAmount, setStakeAmount] = useState(1);
+const MainMint = ({ accounts, setAccounts }) => {
+    const [mintAmount, setMintAmount] = useState(1);
     const isConnected = Boolean(accounts[0]);
 
-    async function handleStake() {
+    async function handleMint() {
         if (window.ethereum) {
             const provider = new ethers.providers.Web3Provider(window.ethereum); // Provides ethers to connect to the blockchain
             const signer = provider.getSigner();
@@ -32,27 +33,26 @@ const MainStake = ({ accounts, setAccounts }) => {
     }
 
     const handleDecrement = () => { // This function is run when the "minus" button is hit on the mint component
-        if (stakeAmount <= 1) return;
-        setMintAmount(stakeAmount - 1); // Handle the button if the option is not set to equal to or below 1 (from above line)
+        if (mintAmount <= 1) return;
+        setMintAmount(mintAmount - 1); // Handle the button if the option is not set to equal to or below 1 (from above line)
     };
 
     const handleIncrement = () => {
-        if (stakeAmount >= 9) return;
-        setMintAmount(stakeAmount + 1);
+        if (mintAmount >= 3) return; // The user shouldn't be allowed to mint more than 3 tokens at a time, per wallet, according to the contract [abi]
+        setMintAmount(mintAmount + 1);
     };
 
     return (
         <Flex justify="center" align="center" height="100vh" paddingBottom="150px">
             <Box width="520px">
                 <div>
-                    <Text fontSize="48px" textShadow="0 5px #000000">Harambians Staking</Text>
+                    <Text fontSize="48px">Harambe Protocol</Text>
                     <Text
                         fontSize="30px"
                         letterSpacing="-5.5%"
-                        fontFamily="VT323"
-                        textShadow="0 2px 2px #000000"
+                        fontFamily="Roboto"
                     >
-                        Staking your $RIPH tokens here
+                        Stake your $RIPH tokens here
                     </Text>
                 </div>
 
@@ -105,9 +105,8 @@ const MainStake = ({ accounts, setAccounts }) => {
                         marginTop="70px"
                         fontSize="30px"
                         letterSpacing="-5.5%"
-                        fontFamily="VT323"
-                        textShadow="0 3px #000000"
-                        color="#d6517D"
+                        fontFamily="Roboto"
+                        color="#c53535"
                     >You must be connected to stake</Text>
                 )}
             </Box>
@@ -115,4 +114,4 @@ const MainStake = ({ accounts, setAccounts }) => {
     );
 };
 
-export default MainStake;
+export default MainMint;
