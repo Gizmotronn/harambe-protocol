@@ -18,7 +18,7 @@ const About = () => {
         <div className="row flex-row-reverse">
           <div className="col-md-6">
             <div className="v1_about_us_right_sect">
-              <SectionTitle title="ABOUT US"/>
+              <center><SectionTitle title="ABOUT US"/></center>
               <div className="v1_about_us_right_text">
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>
@@ -58,6 +58,12 @@ const About = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         {/* about card  */}
         <AboutInfoCardList />
       </div>

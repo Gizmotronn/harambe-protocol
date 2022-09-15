@@ -24,7 +24,7 @@ body {
     line-height: 1.6;
     font-weight: 500;
     overflow-x: hidden; 
-    background-color: #0d0c0c !important;
+    background-color: #212121 !important;
 }
 
 img {
@@ -71,7 +71,6 @@ body, p, a{
 @media (min-width: 1400px){
     .container{
         max-width: 1200px;
-        padding: 0px 20px;
     }
 } 
 

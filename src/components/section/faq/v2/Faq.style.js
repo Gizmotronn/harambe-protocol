@@ -9,14 +9,14 @@ const FAQStyleWrapper = styled.section`
     margin: 0 auto;
   }
 
-  .bithu_faq_content {
+  .riph_faq_content {
     max-width: 770px;
     width: 100%;
     margin: auto;
     position: relative;
   }
 
-  .bithu_faq_questions {
+  .riph_faq_questions {
     margin-top: 57px;
     position: relative;
     .faq_bear_img {
@@ -75,7 +75,7 @@ const FAQStyleWrapper = styled.section`
   }
 
   @media only screen and (max-width: 991px) {
-    .bithu_faq_questions {
+    .riph_faq_questions {
       .faq_bear_img {
         display: none;
       }

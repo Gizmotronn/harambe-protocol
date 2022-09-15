@@ -2,6 +2,8 @@ import { Slider, SliderItem } from "../../../../common/slider/Slider";
 import data from "../../../../assets/data/characterSlider/dataV3";
 
 import CharacterSliderWrapper from "./CharacterSlider.style";
+import HowToMintWrapper from "../../howToMint/v1/HowToMint.style";
+import SectionTitle from "../../../../common/sectionTitle";
 
 const CharacterSlider = () => {
   const settings = {
@@ -45,11 +47,19 @@ const CharacterSlider = () => {
   };
   return (
     <CharacterSliderWrapper>
+      <HowToMintWrapper>
+        <div className="container how_to_mint_container">
+          <center><SectionTitle
+            classNameName="md-pb-20"
+            title="The Harambians"
+          /></center>
+        </div>
+      </HowToMintWrapper>
       <Slider {...settings}>
         {data?.map((thumb, i) => (
           <SliderItem key={i}>
             <div className="character-thumb">
-              <img src={thumb} alt="bithu nft character" />
+              <img src={thumb}/>
             </div>
           </SliderItem>
         ))}

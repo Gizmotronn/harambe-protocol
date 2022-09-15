@@ -1,22 +1,22 @@
 { 
     "info": [
         {
-            "text": "Premium Harambians",
+            "text": "$RIPH Holders",
             "number": "69",
             "unit": ""
         }, 
         {
-            "text": "Days since Harambe died",
+            "text": "24hr $RIPH volume",
             "number": "2100",
             "unit": ""
         }, 
         {
-            "text": "Floor Price (ETH)",
+            "text": "$RIPH price in USD",
             "number": "0.55",
             "unit": ""
         }, 
         {
-            "text": "Volume Traded (ETH)",
+            "text": "$RIPH tokens in circ",
             "number": "25.5",
             "unit": "k"
         }

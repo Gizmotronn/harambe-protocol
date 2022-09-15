@@ -4,7 +4,7 @@ const FAQStyleWrapper = styled.section`
   position: relative;
   padding-bottom: 130px;
 
-  .bithu_title_text {
+  .riph_title_text {
     font-family: "PT Sans";
     color: #fff;
     margin-top: 50px;
@@ -19,13 +19,13 @@ const FAQStyleWrapper = styled.section`
     }
   }
 
-  .bithu_faq_content {
+  .riph_faq_content {
     width: 100%;
     margin: auto;
     position: relative;
   }
 
-  .bithu_faq_questions {
+  .riph_faq_questions {
     position: relative;
 
     .faq_questions {
@@ -90,7 +90,7 @@ const FAQStyleWrapper = styled.section`
     .section_title {
       width: 70%;
     }
-    .bithu_title_text {
+    .riph_title_text {
       margin: 30px 0 57px 0;
     }
   }

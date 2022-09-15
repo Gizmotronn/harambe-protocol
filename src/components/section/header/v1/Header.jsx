@@ -48,19 +48,19 @@ const Header = () => {
   },[isWalletAlreadyConnected]);
 
   return (
-    <NavWrapper className="bithu_header" id="navbar">
+    <NavWrapper className="riph_header" id="navbar">
       <div className="container">
         {/* Main Menu Start */}
-        <div className="bithu_menu_sect">
-          <div className="bithu_menu_left_sect">
+        <div className="riph_menu_sect">
+          <div className="riph_menu_left_sect">
             <div className="logo">
               <a href="/">
-                <img src={logo} alt="bithu nft logo" />
+                <img src={logo} alt="riph nft logo" /> {/* Increase logo size (not header/nav menu) */}
               </a>
             </div>
           </div>
-          <div className="bithu_menu_right_sect bithu_v1_menu_right_sect">
-            <div className="bithu_menu_list">
+          <div className="riph_menu_right_sect riph_v1_menu_right_sect">
+            <div className="riph_menu_list">
               <ul>
                 <li>
                   <a href="#home">Home</a>
@@ -69,7 +69,7 @@ const Header = () => {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#roadmap">Roadmap</a>
+                  <a href="/roadmap">Roadmap</a>
                 </li>
                 <li>
                   <a href="#team">Team</a>
@@ -101,7 +101,7 @@ const Header = () => {
   </li>*/}
               </ul>
             </div>
-            <div className="bithu_menu_btns">
+            <div className="riph_menu_btns">
               <button className="menu_btn" onClick={() => handleMobileMenu()}>
                 <MdNotes />
               </button>

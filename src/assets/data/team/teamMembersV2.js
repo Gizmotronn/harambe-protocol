@@ -9,8 +9,8 @@ import jai from "../../riph/BigTurnz.png";
 const data = [
   {
     avatar: jai,
-    name: "Berneice Tran",
-    designation: "Founder",
+    name: "Liam",
+    designation: "Engineer",
     socialLinks: [
       {
         icon: <FaLinkedinIn />,
@@ -20,69 +20,8 @@ const data = [
         icon: <FaTwitter />,
         url: "#",
       },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
     ],
-  },    
-  {
-    avatar: avatarThumb2,
-    name: "Nathan Bean",
-    designation: "Co-Founder",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },    
-  {
-    avatar: avatarThumb3,
-    name: "Lynnette Wilkes",
-    designation: "Artist",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },    
-  {
-    avatar: avatarThumb4,
-    name: "Claudia Hicks",
-    designation: "Software Engineer",
-    socialLinks: [
-      {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
-        icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
-    ],
-  },    
+  },     
 ];
 
 export default data;

@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 const TeamMemberStyleWrapper = styled.article`
-  .bithu_team_card {
+  .riph_team_card {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     max-width: 100%;
     height: 300px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 25px;
     h3 {
       color: #ffffff;
       font-size: 24px;
@@ -34,7 +34,7 @@ const TeamMemberStyleWrapper = styled.article`
   .team_social_icon {
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,7 @@ const TeamMemberStyleWrapper = styled.article`
   }
 
   @media only screen and (max-width: 991px) {
-    .bithu_team_card {
+    .riph_team_card {
       h3 {
         font-size: 18px;
         line-height: 28px;

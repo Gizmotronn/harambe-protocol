@@ -9,10 +9,10 @@ const FooterBottom = () => {
     <FooterBottomStyleWrapper className="footer_bottom">
       <div className="footer_bottom_content">
         <span className="footer_shapes_left">
-          <img src={footerShapesLeft} alt="bithu nft footer" />
+          <img src={footerShapesLeft} alt="riph nft footer" />
         </span>
         <span className="footer_shapes_right">
-          <img src={footerShapesRight} alt="bithu nft footer" />
+          <img src={footerShapesRight} alt="riph nft footer" />
         </span>
         <div className="container">
           <div className="footer_menu">
@@ -22,7 +22,7 @@ const FooterBottom = () => {
               </div>
             </div>
             <a href="# " className="bact_to_top_btn">
-              <img src={backToTopIcon} alt="bithu nft back to top" />
+              <img src={backToTopIcon} alt="riph nft back to top" />
             </a>
             <div className="bottom_footer_right">
               <ul>
@@ -30,7 +30,7 @@ const FooterBottom = () => {
                   <li key={i}>
                     <a href={item.url}>
                       {item.thumb ? (
-                        <img src={item.thumb} alt="bithu nft social" />
+                        <img src={item.thumb} alt="riph nft social" />
                       ) : (
                         item.icon
                       )}

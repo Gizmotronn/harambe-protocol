@@ -12,7 +12,6 @@ const FooterStyleWrapper = styled.footer`
   }
   /* footer top  */
   .top-footer-content {
-    padding-bottom: 90px;
     padding-top: 150px;
     background: url(${footerBG});
     background-position: center;

@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import aboutBg from "../../../../assets/images/nft/v2_about_bg.png"
+import aboutBg from "../../../../assets/riph/riph-bg-again.png";
 const AboutStyleWrapper = styled.section` 
     min-height: 914px; 
     padding-top: 133px;
     padding-bottom: 0px;
-    background: url(${aboutBg});
+    background: url(${aboutBg}); 
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ const AboutStyleWrapper = styled.section`
         height: 70%;
         position: absolute;
         bottom: 0px;
-        background: linear-gradient(180deg, rgba(4, 12, 18, 0) 0%, rgba(4, 12, 18, 0.7) 33.33%, #040C12 56.77%);
+        background: linear-gradient(180deg, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.7) 33.33%, #212121 56.77%);
         z-index: 1;
     }
 

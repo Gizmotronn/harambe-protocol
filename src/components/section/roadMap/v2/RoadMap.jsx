@@ -27,8 +27,8 @@ const RoadMap = () => {
           </div>
         </div>
       </div>
-      <div className="bithu_v2_roadmap_mass_gard">
-        <img src={roadMapBgShape} alt="bithu nft roadmap bg shape" />
+      <div className="riph_v2_roadmap_mass_gard">
+        <img src={roadMapBgShape} alt="riph nft roadmap bg shape" />
       </div>
     </RoadMapStyleWrapper>
   );

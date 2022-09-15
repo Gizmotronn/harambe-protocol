@@ -1,112 +1,98 @@
 import styled from "styled-components";
-import AboutBG from "../../../../assets/images/bg/about-bg3.png";
+import aboutBg from "../../../../assets/riph/riph-bg-again.png";
+const AboutStyleWrapper = styled.section` 
+    min-height: 800px; 
+    padding-top: 133px;
+    padding-bottom: 0px;
+    background: url(${aboutBg}); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; 
 
-const AboutStyleWrapper = styled.section`
-  background: url(${AboutBG});
-  background-size: cover;
-  background-position: center top -50px;
-  background-repeat: no-repeat;
-  padding: 110px 0 80px 0;
-
-  p {
-    margin-bottom: 0;
-  }
-
-  .about_section_title {
-    margin-bottom: 30px;
-    h2 {
-      color: #ffffff;
+    .v2_about_overlay {
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        bottom: 0px;
+        background: linear-gradient(180deg, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.7) 33.33%, #212121 56.77%);
+        z-index: 1;
     }
-  }
 
-  /* right */
-  .v1_about_us_right_text {
-    margin-top: 46px;
-
-    p {  
-      font-size: 16px;
-      line-height: 28px;
-      color: rgba(255, 255, 255, 0.8);
-      padding-bottom: 20px;
+    .v2_about_us_content {
+        position: relative;
     }
-  }
 
-  .ab-content{
-    display: flex;
-  }
-
-  .ab-item-box + .ab-item-box {
-    margin-left: 30px;
-  }
-
-  .ab-item-box {
-    padding: 20px 20px;
-    background: #212027;
-
-    .ab-text {
-      margin-top: 20px;
-      h5 {
-        color: #fff;
-        font-size: 24px;
-        transition: 0.4s;
-        margin: 0;
-
-        img {
-          margin-left: 10px;
+    .v2_about_us_text {
+        position: relative;
+        max-width: 770px; 
+        margin: 46px auto auto auto; 
+        z-index: 2;
+        p { 
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0px;
         }
-      }
-    }
-    span {
-      font-size: 16px;
-      color: rgba(255, 255, 255, 0.7);
-    }
-  }
-
-  /* left  */
-  .about-left-item {
-    padding-left: 45px;
-  }
-
-  @media only screen and (max-width: 1199px) {
-    .v1_about_us_right_text {
-      margin-top: 30px;
-    }
-  }
-
-  @media only screen and (max-width: 991px) {
-    .about-left-item {
-      padding-left: 0;
-      margin-top: 30px;
-    }
-  }
-
-  @media only screen and (max-width: 575px) {
-    .v1_about_us_right_text {
-      margin-top: 10px;
-      p {
-        font-size: 13px;
-        line-height: 24px;
-        padding-bottom: 10px;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 480px) {
-    .about-left-item {
-      .ab-item-box + .ab-item-box {
-        margin-top: 30px;
-        margin-left: 0;
-      }
-      .ab-content {
-        display: block;
-        .ab-item-box {
-          .author-thumbnail {
-            width: 100%;
-          }
+        p+p {
+            margin: 20px 0; 
         }
-      }
     }
-  }
-`;
+
+    .counter-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        max-width: 414px;
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+          h4 {  
+            font-size: 18px;
+            line-height: 40px; 
+            text-transform: uppercase;
+            color: #FFFFFF;
+
+            span{
+                display: block;
+                font-size: 36px;
+                line-height: 40px; 
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .v2_about_img{ 
+        position: absolute; 
+        top: 10px;
+        z-index: 0;
+
+        &.v2_about_img_left{
+            left: 0px;
+        }
+        &.v2_about_img_right{
+            right: 0px;
+        }
+    } 
+
+    @media only screen and (max-width: 991px) {
+        padding-top: 75px;
+    }
+
+    @media only screen and (max-width: 575px) {
+        .v2_about_us_text {
+            p {
+                font-size: 13px;
+                line-height: 25px;
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+`
 
 export default AboutStyleWrapper;

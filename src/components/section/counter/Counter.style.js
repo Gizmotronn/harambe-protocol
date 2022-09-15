@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 const CoinInfoCounterWrapper = styled.section`
-  background: rgba(13, 27, 38, 0.7);
+  background: rgba(33, 33, 33, 0.7);
   min-height: 200px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   border-radius: 15px;
 
   ul {

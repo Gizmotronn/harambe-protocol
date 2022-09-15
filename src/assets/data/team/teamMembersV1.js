@@ -20,16 +20,13 @@ const data = [
     socialLinks: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://www.linkedin.com/in/jaiturnor/",
       },
       {
         icon: <FaTwitter />,
-        url: "#",
+        url: "https://twitter.com/Jai_Turnor",
       },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
+      
     ],
   },
   {
@@ -39,16 +36,13 @@ const data = [
     socialLinks: [
       {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://www.linkedin.com/in/alex-garcia-035888226/",
       },
       {
         icon: <FaTwitter />,
-        url: "#",
+        url: "https://twitter.com/Garciawunn",
       },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
+      
     ],
   },
   {
@@ -57,16 +51,8 @@ const data = [
     designation: "Artist",
     socialLinks: [
       {
-        icon: <FaLinkedinIn />,
-        url: "#",
-      },
-      {
         icon: <FaTwitter />,
-        url: "#",
-      },
-      {
-        icon: <FaInstagram />,
-        url: "#",
+        url: "https://twitter.com/okkyksy",
       },
     ],
   },
@@ -76,20 +62,27 @@ const data = [
     designation: "Community",
     socialLinks: [
       {
+        icon: <FaTwitter />,
+        url: "https://twitter.com/anna1mirskaya",
+      },
+    ],
+  },
+  {
+    avatar: Jai,
+    name: "Liam Arbuckle",
+    designation: "Engineer",
+    socialLinks: [
+      {
         icon: <FaLinkedinIn />,
-        url: "#",
+        url: "https://www.linkedin.com/in/liam-arbuckle-8bb257188/",
       },
       {
         icon: <FaTwitter />,
-        url: "#",
+        url: "https://twitter.com/TheMrScrooby",
       },
-      {
-        icon: <FaInstagram />,
-        url: "#",
-      },
+      
     ],
-  }
-  
+  },
 ];
 
 export default data;

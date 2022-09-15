@@ -13,7 +13,7 @@ import FooterStyleWrapper from "./Footer.style";
 const Footer = () => {
   return (
     <FooterStyleWrapper>
-      <div className="bithu_v1_main_footer">
+      <div className="riph_v1_main_footer">
         <div className="footer_bottom">
           <div className="footer_bottom_content">
             <div className="container">
@@ -24,7 +24,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <a href="# " className="bact_to_top_btn">
-                  <img src={backToTopIcon} alt="bithu nft back to top" />
+                  <img src={backToTopIcon} alt="riph nft back to top" />
                 </a>
                 <div className="bottom_footer_right">
                   <ul>

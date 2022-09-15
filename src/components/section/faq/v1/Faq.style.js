@@ -2,22 +2,25 @@ import styled from "styled-components";
 
 const FAQStyleWrapper = styled.section`
   padding-bottom: 120px;
-  padding-top: 130px;
+  padding-top: 80px;
 
-  .bithu_faq_content {
+  .riph_faq_content {
     max-width: 770px;
     width: 100%;
     margin: auto;
     position: relative;
+    border-radius: 15px;
   }
 
-  .bithu_faq_questions {
+  .riph_faq_questions {
+    border-radius: 15px;
     margin-top: 57px;
     position: relative;
 
     .faq_questions {
       position: relative;
       z-index: 1;
+      border-radius: 15px;
 
       .accordion__item + .accordion__item {
         margin-top: 10px;
@@ -27,6 +30,7 @@ const FAQStyleWrapper = styled.section`
   .accordion__item {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
+    border-radius: 15px;
   }
   .accordion__header {
     h5 {
@@ -39,6 +43,7 @@ const FAQStyleWrapper = styled.section`
       font-size: 24px;
       line-height: 34px;
       text-transform: none;
+      border-radius: 15px;
     }
   }
 

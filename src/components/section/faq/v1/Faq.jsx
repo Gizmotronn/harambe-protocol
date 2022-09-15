@@ -21,16 +21,16 @@ const FAQ = () => {
   };
 
   return (
-    <FAQStyleWrapper className="bithu_faq_sect" id="faq">
+    <FAQStyleWrapper className="riph_faq_sect" id="faq">
       <div className="container">
-        <div className="bithu_faq_content">
+        <div className="riph_faq_content">
           <SectionTitle
             isCenter={true}
             title="FREQUENTLY ASKED QUESTIONS"
             className="text-center"
           />
 
-          <div className="bithu_faq_questions">
+          <div className="riph_faq_questions">
             <Accordion className="faq_questions">
               {data?.map((item, i) => (
                 <AccordionItem key={i}>
@@ -53,7 +53,7 @@ const FAQ = () => {
             </Accordion>
 
             <div className="faq_bg_wattermark">
-              {/*<img src={faqBgThumb} alt="bithu nft faq" />*/}
+              {/*<img src={faqBgThumb} alt="riph nft faq" />*/}
             </div>
           </div>
         </div>

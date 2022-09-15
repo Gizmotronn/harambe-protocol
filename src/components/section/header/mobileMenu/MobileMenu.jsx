@@ -29,10 +29,10 @@ const MobileMenu = ({ mobileMenuhandle }) => {
     }
   }
   return (
-    <MobileMenuStyleWrapper className="bithu_mobile_menu">
-      <div className="bithu_mobile_menu_content">
+    <MobileMenuStyleWrapper className="riph_mobile_menu">
+      <div className="riph_mobile_menu_content">
         <div className="mobile_menu_logo">
-          {/*<img className="bithu_logo" src={logo} alt="bithu logo" />*/}
+          {/*<img className="riph_logo" src={logo} alt="riph logo" />*/}
           <button
             className="mobile_menu_close_btn"
             onClick={() => mobileMenuhandle()}
@@ -41,7 +41,7 @@ const MobileMenu = ({ mobileMenuhandle }) => {
             <BsXLg />{" "}
           </button>
         </div>
-        <div className="bithu_mobile_menu_list">
+        <div className="riph_mobile_menu_list">
           <ul>
             <li className="mobile_menu_hide">
               <a href="#home">Home</a>
@@ -86,7 +86,7 @@ const MobileMenu = ({ mobileMenuhandle }) => {
         </div>
         <div className="mobile_menu_social_links">
           <a href="# ">
-            <img src={openseaIcon} alt="bithu social icon" />
+            <img src={openseaIcon} alt="riph social icon" />
           </a>
           <a href="# ">
             <FaTwitter />

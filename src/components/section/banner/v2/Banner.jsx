@@ -37,9 +37,9 @@ const Banner = () => {
   },[])
 
   return (
-    <BannerStyleWrapper className="bithu_v2_baner_sect" id="home">
+    <BannerStyleWrapper className="riph_v2_baner_sect" id="home">
       <div className="container">
-        <div className="bithu_v2_baner_content">
+        <div className="riph_v2_baner_content">
           <h2>
             {" "}
             <span className="banner-emot">🎉</span>Public Sale{" "}
@@ -51,13 +51,13 @@ const Banner = () => {
             </span>{" "}
             / 9999 Minted
           </h3>
-          <div className="bithu_v2_timer">
+          <div className="riph_v2_timer">
             <h4>TIME LEFT</h4>
             <div className="timer timer_1">
               <CountdownTimer {...settings} />
             </div>
           </div>
-          <div className="bithu_v2_baner_buttons text-center">
+          <div className="riph_v2_baner_buttons text-center">
           {
             account ? 
             <Button lg variant="mint" onClick={() => mintModalHandle()}>

@@ -2,12 +2,12 @@ import styled from "styled-components";
 import footerBG from "../../../../assets/images/bg/v1_footer_bg.png";
 
 const FooterStyleWrapper = styled.footer`
-  .bithu_v1_main_footer {
+  .riph_v1_main_footer {
     position: relative;
     min-height: 400px;
     width: 100%;
 
-    .bithu_v1_main_footer_overlay {
+    .riph_v1_main_footer_overlay {
       background: linear-gradient(
         180deg,
         rgba(13, 115, 119, 0) 0%,
@@ -115,7 +115,7 @@ const FooterStyleWrapper = styled.footer`
     }
   }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       .bottom_footer_right {
         ul {
           justify-content: right;
@@ -125,7 +125,7 @@ const FooterStyleWrapper = styled.footer`
   }
 
   @media only screen and (max-width: 1199px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       .bottom_footer_right {
         ul {
           li + li {
@@ -137,7 +137,7 @@ const FooterStyleWrapper = styled.footer`
   }
 
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       .bottom_footer_right {
         ul {
           justify-content: right;
@@ -147,7 +147,7 @@ const FooterStyleWrapper = styled.footer`
   }
 
   @media only screen and (max-width: 991px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       .bottom_footer_left {
         .copiright_text a {
           font-size: 14px;
@@ -176,12 +176,11 @@ const FooterStyleWrapper = styled.footer`
   }
 
   @media only screen and (max-width: 767px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       
       .footer_menu {
         padding: 20px 0px;
         flex-direction: column-reverse;
-        padding-bottom: 40px;
       }
 
       .footer_shapes_left,
@@ -200,7 +199,7 @@ const FooterStyleWrapper = styled.footer`
   }
 
   @media only screen and (max-width: 375px) {
-    .bithu_v1_main_footer {
+    .riph_v1_main_footer {
       .bottom_footer_left {
         .copiright_text {
           margin-left: 26px;

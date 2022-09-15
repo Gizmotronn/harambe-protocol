@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
 const TeamStyleWrapper = styled.section`
-  background: rgba(25, 35, 40, 0.5);
+  margin-top: 50px;
+  background: rgba(33, 33, 33, 0.5); 
   backdrop-filter: blur(5px);
-  position: relative;
-  z-index: 1;
+  position: center;
 
   .v1_team_overlay {
-    padding: 113px 0 140px 0;
-    position: relative;
+    padding: 0px 0 140px 0;
+    position: center;
     width: 100%;
     height: 100%;
-    background: #040c12;
+    background: #212121;
     z-index: 1;
+    border-radius: 15px;
   }
 
-  .bithu_team_content {
-    margin-top: 53px;
+  .riph_team_content {
+    margin-top: 53px; 
     position: relative;
     z-index: 1;
     .row {

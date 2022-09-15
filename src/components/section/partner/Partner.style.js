@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const PartnerStyledWrapper = styled.section`
   .our_partnar_content {
-    margin-top: 57px;
 
     ul {
       display: flex;

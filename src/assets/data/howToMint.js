@@ -1,24 +1,24 @@
-const data = [
+const data = [ // Change to solid colours
     {
         num: "1",
         mintColor: "green",
-        text: "Connect Your Wallet"
+        text: "Stake $RIPH"
     },
     {
         num: "2",
-        mintColor: "blue",
-        text: "Select Your Quantity"
+        mintColor: "red",
+        text: "Mint Cryopod"
     },
     {
         num: "3",
-        mintColor: "yellow",
-        text: "Pray to Harambe"
-    },
-    {
-        num: "4",
-        mintColor: "red",
-        text: "Jai will send your NFTs"
+        mintColor: "red", // brighter red
+        text: "Unlock Cryopod"
     },
 ]
+{/* {
+        num: "4",
+        mintColor: "green",
+        text: "Reveal Harambian NFT" // FIX SPACING for all
+    }, */}
 
 export default data;

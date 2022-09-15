@@ -16,7 +16,7 @@ const CharacterSlider = () => {
     centerMode: true,
     centerPadding: "0px",
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
       {
@@ -53,10 +53,10 @@ const CharacterSlider = () => {
     <CharacterSliderWrapper>
       <HowToMintWrapper>
         <div className="container how_to_mint_container">
-          <SectionTitle
+          <center><SectionTitle
             classNameName="md-pb-20"
             title="OUR PARTNERS"
-          />
+          /></center>
         </div>
       </HowToMintWrapper>
       <Slider {...settings}>

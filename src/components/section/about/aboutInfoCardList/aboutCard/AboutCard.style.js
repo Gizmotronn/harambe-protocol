@@ -5,6 +5,7 @@ const AboutCardStyleWrapper = styled.article`
   width: 100%;
   min-height: 220px;
   padding: 35px;
+  border-radius: 15px;
 
   h3 {
     font-family: "PT Sans", sans-serif;

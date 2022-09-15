@@ -1,52 +1,71 @@
 import SectionTitle from "../../../../common/sectionTitle";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+import Counter from "../../../../common/counter";
 
-import data from "../../../../assets/data/about/dataV2";
-
+import aboutImageLeft from "../../../../assets/images/nft/about_image_left.png";
+import aboutImageRight from "../../../../assets/images/nft/about_image_right.png";
+import AboutInfoCardList from "../aboutInfoCardList";
 import AboutStyleWrapper from "./About.style";
 
+const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
+
+// simplest form (only email)
+const SimpleForm = () => <MailchimpSubscribe url={url}/>
+
 const About = () => {
-  const { aboutDescription1, aboutDescription2, artists } = data;
   return (
-    <AboutStyleWrapper id="about">
+    <AboutStyleWrapper className="v2_about_us_section" id="about">
+      
+      {/*<div className="v2_about_overlay"></div>
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="v1_about_us_right_sect">
-              <SectionTitle title="ABOUT US" subtitle="THE STORY " />
-              <div className="v1_about_us_right_text">
-                <p>{aboutDescription1}</p>
-                <p>{aboutDescription2}</p>
-              </div>
+        <SectionTitle
+          className="text-center"
+          isCenter={true}
+          title="About Us"
+          subtitle="THE STORY"
+        />
+        <div className="v2_about_us_content">
+          <div className="v2_about_us_text">
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classNameical Latin literature from 45
+              BC, making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia, looked up one of
+              the more obscure Latin words, consectetur cites of the word in
+              classNameical literature.
+            </p>
+            <p>
+              The standard chunk of Lorem Ipsum used since the 1500s is
+              reproduced below for those interested. Sections 1.10.32 and
+              1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+              reproduced in their exact original a latin professor at
+              Hampden-Sydney
+            </p>
+
+            <div className="counter-wrap">
+              <h4>
+                To be minted <Counter end="9999" />{" "}
+              </h4>
+              <h4>
+                Attributes <Counter end="555" />
+              </h4>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="about-left-item">
-              <SectionTitle
-                subtitle="Meet The Artists"
-                className="about_section_title"
-              />
-              <div className="ab-content">
-                {artists?.map((item, i) => (
-                  <div key={i} className="ab-item-box mr-30">
-                    <img
-                      className="author-thumbnail"
-                      src={item.thumb}
-                      alt="bithu nft about"
-                    />
-                    <div className="ab-text pt-20">
-                      <h5>
-                        {item.name}
-                        <img src={item.icon} alt="bithu nft about icon" />
-                      </h5>
-                    </div>
-                    <span>{item.role}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="v2_about_img v2_about_img_left">
+            <span>
+              <img src={aboutImageLeft} alt="riph nft about" />
+            </span>
+          </div>
+          <div className="v2_about_img v2_about_img_right">
+            <span>
+              <img src={aboutImageRight} alt="riph nft thumb" />
+            </span>
           </div>
         </div>
-      </div>
+
+        {/* about card 
+        <AboutInfoCardList />
+      </div>*/}
     </AboutStyleWrapper>
   );
 };

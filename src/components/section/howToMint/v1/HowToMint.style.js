@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 const HowToMintWrapper = styled.section`
-  margin-top: 113px;
-  padding-bottom: 85px;
+  margin-top: 70px;
 
   .how_to_mint_container {
     position: relative;
@@ -39,7 +38,7 @@ const HowToMintWrapper = styled.section`
             font-size: 100px;
             line-height: 140px;
             text-transform: uppercase;
-            color: transparent;
+            color: #ad2f2f;
 
             &.green {
               -webkit-text-stroke: 1px rgba(173, 47, 47, 0.7);

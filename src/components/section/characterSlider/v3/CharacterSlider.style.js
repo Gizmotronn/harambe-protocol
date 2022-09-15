@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const CharacterSliderWrapper = styled.section`
-  padding: 20px 40px;
   position: relative;
   z-index: 1;
 
@@ -29,7 +28,8 @@ const CharacterSliderWrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.00);
+    border-radius: 25px;
   }
 `;
 

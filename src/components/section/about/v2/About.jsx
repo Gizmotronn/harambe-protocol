@@ -1,4 +1,5 @@
 import SectionTitle from "../../../../common/sectionTitle";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 import Counter from "../../../../common/counter";
 
 import aboutImageLeft from "../../../../assets/images/nft/about_image_left.png";
@@ -6,10 +7,52 @@ import aboutImageRight from "../../../../assets/images/nft/about_image_right.png
 import AboutInfoCardList from "../aboutInfoCardList";
 import AboutStyleWrapper from "./About.style";
 
+const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
+
+// simplest form (only email)
+const SimpleForm = () => <MailchimpSubscribe url={url}/>
+
 const About = () => {
   return (
     <AboutStyleWrapper className="v2_about_us_section" id="about">
-      <div className="v2_about_overlay"></div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br /> {/* Look at the subscribe forms (if there are any) and how they are styled from the dirivative of global styles*/}
+      <center><MailchimpSubscribe 
+      url={url}
+      render={({ subscribe, status, message }) => (
+        <div>
+          <SimpleForm onSubmitted={formData => subscribe(formData)} />
+          {status === "sending" && <div style={{ color: "blue" }}>sending...</div>}
+          {status === "error" && <div style={{ color: "red" }} dangerouslySetInnerHTML={{__html: message}}/>}
+          {status === "success" && <div style={{ color: "green" }}>Subscribed !</div>}
+        </div> // UPDATE THE FONT TO MYRIAD PRO
+      )}
+    />
+    </center>
+      {/*<div className="v2_about_overlay"></div>
       <div className="container">
         <SectionTitle
           className="text-center"
@@ -46,19 +89,19 @@ const About = () => {
           </div>
           <div className="v2_about_img v2_about_img_left">
             <span>
-              <img src={aboutImageLeft} alt="bithu nft about" />
+              <img src={aboutImageLeft} alt="riph nft about" />
             </span>
           </div>
           <div className="v2_about_img v2_about_img_right">
             <span>
-              <img src={aboutImageRight} alt="bithu nft thumb" />
+              <img src={aboutImageRight} alt="riph nft thumb" />
             </span>
           </div>
         </div>
 
-        {/* about card */}
+        {/* about card 
         <AboutInfoCardList />
-      </div>
+      </div>*/}
     </AboutStyleWrapper>
   );
 };

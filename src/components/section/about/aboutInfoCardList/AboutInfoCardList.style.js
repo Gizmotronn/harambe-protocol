@@ -4,7 +4,8 @@ import styled from "styled-components"
 const AboutInfoCardListWrapper = styled.div` 
     position: relative;
     margin-top: 120px; 
-    z-index: 1;  
+    z-index: 1;
+    border-radius: 15px;
 
 
     @media only screen and (max-width: 991px) {

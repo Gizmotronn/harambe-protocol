@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const CharacterSliderWrapper = styled.section`
-  padding: 20px 40px;
   position: relative;
   z-index: 1;
 

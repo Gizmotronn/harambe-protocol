@@ -2,16 +2,9 @@ import { useModal } from "../../../../utils/ModalContext";
 import Counter from "../../../../common/counter";
 import Button from "../../../../common/button";
 import BannerV1Wrapper from "./Banner.style";
-
-import characterThumb from "../../../../assets/images/nft/Character1.png";
-import mintLiveDownArrow from "../../../../assets/images/nft/mint_live_down_arrow.svg";
-import mintLiveText from "../../../../assets/images/nft/mint_live_text.png";
-import homeImageBG from "../../../../assets/images/nft/home_img_bg.png";
 import { useEffect, useState } from "react";
 import { totalMintCount } from '../../../../utils/web3mint';
 import harambe from '../../../../assets/riph/harambe1.png'
-import video from "../../../../assets/riph/video.mp4";
-import riphbackground from "../../../../assets/riph/bg1.png";
 import clickAudio from "../../../../assets/riph/sound1.mp3";
 
 const Banner = () => {
@@ -33,45 +26,44 @@ const Banner = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="bithu_v1_baner_left">
-              <h2>Harambe Protocol</h2>
+            <div className="riph_v1_baner_left">
+              <h2>MINTING SOON!</h2>
               <h3>
-                <span className="count">
+               {/*<span className="count">
                   <Counter end={remaining} duration={remaining} />
-                </span>{" "}
-                / 69 Minted
+  </span>{" "}*/}
+                5,000 Cryropods containing unique Purebred Harambians
               </h3>
-              
               <div className="banner_buttons">
-                {
+                {/*{
                   account ? 
                   <Button lg variant="mint" onClick={() => mintModalHandle()}>
                     {" "}
                     Mint now
                   </Button> :
-                  <Button lg variant="mint" onClick={() => audio.play()}> {/*onClick={() => connectWalletModalHanlde() -> Later, add these two onClick events in the same function*/} 
+                  <Button lg variant="mint" onClick={() => audio.play()}> {/*onClick={() => connectWalletModalHanlde() -> Later, add these two onClick events in the same function*/} {/*
                     {" "}
                     Mint now
                   </Button> 
-                }
-                
+                }*/}
                 <Button lg variant="outline" border-radius="20px">
-                  Wishlist now
+                  Register
                 </Button>
               </div>
               <div className="coin-info">
-                <span>Max 2 Harambians per wallet . Price 0.09 ETH + gas</span>
-                <span>
+                <span>Max 10 Harambians per wallet</span>
+                <span>Public mint price: 0.1 ETH + GAS</span>
+                {/*<span>
                   MINT IS LIVE{" "}
                   <span className="highlighted">UNTIL 25 SEP 04:00H</span>
-                </span>
-                <span>ERC20 Presale : SOLDOUT</span>
+              </span>*/}
+                <span>ERC20 Presale : Launching on Opensea</span>
               </div>
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="bithu_v1_baner_right">
-              <div className="bithu_v1_baner_right_img_sect">
+            <div className="riph_v1_baner_right">
+              <div className="riph_v1_baner_right_img_sect">
                 {/*<div className="mint_live_circle_sect">
                   <div className="mint_live_circle">
                     <span>
@@ -82,14 +74,15 @@ const Banner = () => {
                     </span>
               </div>
                 </div>*/}
-                {/*<div className="bithu_v1_baner_right_img_bg">
+                {/*<div className="riph_v1_baner_right_img_bg">
                   <img src={homeImageBG} alt="" />
               </div>*/}
-                <div className="bithu_v1_baner_right_img">
-                  <img src={harambe} alt="avater" />
+                <div className="riph_v1_baner_right_img">
+                  
                 </div>
               </div>
             </div>
+            <img src={harambe} height="100%" />
           </div>
         </div>
       </div>
@@ -98,3 +91,5 @@ const Banner = () => {
 };
 
 export default Banner;
+
+// Roadmap -> duplicate the FAQ section & add images  #TODO

@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import AboutBG from "../../../../assets/images/bg/h1_about_us_bg.png";
 
+// background: url(${AboutBG}); (above background-size)
+
 const AboutStyleWrapper = styled.section`
-  background: url(${AboutBG});
   background-size: cover;
   background-position: center left;
   background-repeat: no-repeat;
   min-height: 901px;
-  padding-top: 110px;
+  padding-top: 40px;
   p {
     margin-bottom: 0;
   }
@@ -23,7 +24,7 @@ const AboutStyleWrapper = styled.section`
       font-size: 16px;
       line-height: 28px;
       color: rgba(255, 255, 255, 0.8);
-      padding-bottom: 20px;
+      padding-bottom: 40px;
     }
   }
 

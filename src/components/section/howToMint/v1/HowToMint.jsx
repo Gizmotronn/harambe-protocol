@@ -7,10 +7,11 @@ const HowToMint = () => {
   return (
     <HowToMintWrapper>
       <div className="container how_to_mint_container">
-        <SectionTitle
+        <center><SectionTitle
           classNameName="md-pb-20"
           title="HOW TO MINT"
         />
+        </center>
         <div className="how_to_mint_content">
           <ul>
             {data?.map((item, i) => (

@@ -1,18 +1,17 @@
 import TeamMemberStyleWrapper from "./TeamMember.style";
 import hoverShape from "../../../../assets/images/icon/hov_shape_L.svg";
-
+ 
 const TeamMember = ({ avatar, name, designation, socialLinks }) => {
-  return (
+  return ( 
     <TeamMemberStyleWrapper>
-      <div className="bithu_team_card">
+      <div className="riph_team_card">
         <center>
           <div className="team_member_img">
-            <img src={avatar} alt="bithu nft team avatar" height="45%" width="45%" />
+            <img src={avatar} alt="riph nft team avatar" height="45%" width="45%" />
+            <img src={avatar} height="15%" width="15%" /> {/* Maybe look at padding alternative to force it on top of main avatar? */}
           </div>
         </center>
-        <div className="bithu_team_card">
-          <img src={avatar} height="25%" width="25%" />
-        </div>
+        
         <h3>{name}</h3>
         <h4>{designation}</h4>
 

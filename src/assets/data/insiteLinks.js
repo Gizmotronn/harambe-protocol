@@ -9,7 +9,7 @@ export const footerLinksV1 = [
   },
   {
     title: "Roadmap",
-    url: "#roadmap",
+    url: "/roadmap",
   },
   {
     title: "Team",

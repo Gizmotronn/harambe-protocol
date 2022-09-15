@@ -5,7 +5,7 @@ const FooterBottomStyleWrapper = styled.div`
   backdrop-filter: blur(20px);
   .footer_bottom_content {
     position: relative;
-    height: 100%;
+    height: 0px;
     width: 100%;
     display: flex;
     align-items: center;

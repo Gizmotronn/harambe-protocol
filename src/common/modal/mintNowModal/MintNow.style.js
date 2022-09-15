@@ -54,8 +54,6 @@ const MintModalStyleWrapper = styled.div`
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 45px;
-    padding-bottom: 50px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -74,7 +72,6 @@ const MintModalStyleWrapper = styled.div`
       color: #ffffff;
       max-width: 280px;
       margin: auto;
-      margin-bottom: 26px;
     }
 
     button {
