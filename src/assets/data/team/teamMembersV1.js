@@ -67,7 +67,12 @@ const data = [
       },
     ],
   },
-  {
+];
+
+export default data;
+
+/*
+{
     avatar: Jai,
     name: "Liam Arbuckle",
     designation: "Engineer",
@@ -83,6 +88,4 @@ const data = [
       
     ],
   },
-];
-
-export default data;
+*/

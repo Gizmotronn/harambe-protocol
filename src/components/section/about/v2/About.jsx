@@ -6,11 +6,12 @@ import aboutImageLeft from "../../../../assets/images/nft/about_image_left.png";
 import aboutImageRight from "../../../../assets/images/nft/about_image_right.png";
 import AboutInfoCardList from "../aboutInfoCardList";
 import AboutStyleWrapper from "./About.style";
+import btnArrow from "../../../../assets/images/blog/arrow-icon.png";
 
 const url = "//xxxx.us13.list-manage.com/subscribe/post?u=zefzefzef&id=fnfgn";
 
 // simplest form (only email)
-const SimpleForm = () => <MailchimpSubscribe url={url}/>
+const SimpleForm = () => <MailchimpSubscribe url={url} />
 
 const About = () => {
   return (
@@ -25,7 +26,25 @@ const About = () => {
       <br />
       <br />
       <br />
-      <br />
+      <center>
+      <h2>Test</h2>
+      <div className="col-md-6 col-lg-4">
+              <div className="footer-menu footer_newsletter">
+                <h5 className="menu-title">Subscribe to Newsletter</h5>
+                <div className="form-box">
+                  <input
+                    type="text"
+                    name="text"
+                    placeholder="Email address"
+                    required
+                  />
+                  <button>
+                    <img src={btnArrow} alt="riph nft arrow" />
+                  </button>
+                </div>
+              </div>
+            </div>
+      </center>
       <br />
       <br />
       <br />

@@ -5,6 +5,7 @@ import HomeV3 from "../pages/homeV3";
 import Blogs from "../pages/blogs";
 import RoadmapPage from "../pages/Roadmap";
 import BlogDetails from "../pages/blogDetails";
+import StakePage from "../pages/stake";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/post" element={<BlogDetails />} />
       <Route path="/roadmap" element={<RoadmapPage />} />
+      <Route path="/stake" element={<StakePage />} />
     </Routes>
   );
 }

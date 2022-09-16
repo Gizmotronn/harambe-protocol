@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HowToMintWrapper = styled.section`
-  margin-top: 70px;
+  margin-top: 120px;
 
   .how_to_mint_container {
     position: relative;
@@ -17,6 +17,7 @@ const HowToMintWrapper = styled.section`
     }
 
     .how_to_mint_content {
+      margin-top: 50px;
       position: relative;
       z-index: 1;
 

@@ -8,6 +8,8 @@ import harambe from '../../riph/harambe1.png';
 import partner1 from "../../riph/rfox_logo.png";
 import partner2 from "../../riph/tanks.png";
 import partner3 from "../../riph/pw.png";
+import partner4 from '../../riph/100.png'
+import partner5 from '../../riph/simpler.png'
 
 const data = [
   {
@@ -20,22 +22,10 @@ const data = [
     thumb: partner3,
   },
   {
-    thumb: partner1,
+    thumb: partner4,
   },
   {
-    thumb: partner2,
-  },
-  {
-    thumb: partner3,
-  },
-  {
-    thumb: partner1,
-  },
-  {
-    thumb: partner2,
-  },
-  {
-    thumb: partner3,
+    thumb: partner5,
   },
 ];
 

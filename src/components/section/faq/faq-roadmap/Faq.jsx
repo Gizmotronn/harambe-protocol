@@ -37,8 +37,8 @@ const FAQRoadmap = () => {
               {data?.map((item, i) => (
                 <AccordionItem key={i}>
                   <AccordionTitle handleExpand={handleExpand}>
-                    <p>{item.image}</p>
-                    <h5>{item.title}</h5>
+                    <p>{item.image}</p> {/* width="67%" height="67%" */}
+                    <h5>{item.title}</h5> {/* Center the text between the image and the accordion active button */}
                     <IconWrapper>
                       <OpenIcon>
                         <FaMinus />

@@ -1,6 +1,6 @@
 import { useModal } from "../utils/ModalContext";
 import GlobalStyles from "../assets/styles/GlobalStyles";
-import Header from "../components/section/header/v1/Header";
+import Header from "../components/section/header/v4/Header";
 import Layout from "../common/layout";
 import Banner from "../components/section/banner/v1";
 import Counter from "../components/section/counter";
@@ -21,9 +21,9 @@ import CharacterSlider2 from "../components/section/characterSlider/v3/";
 import CustomForm from "../components/mailchimp";
 import FAQRoadmap from "../components/section/faq/faq-roadmap/Faq";
 import newBg from "../assets/riph/riph-bg-again.png";
-import About2 from "../components/section/about/v3/About";
+import About2 from "../components/section/about/v4/About";
 
-const RoadmapPage = () => {
+const StakePage = () => {
     const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
     return (
       <Layout>
@@ -33,19 +33,9 @@ const RoadmapPage = () => {
         {metamaskModalVisibility && <MetamaskModal/> }
         {connectWalletModal && <ConnectWallet/> }
         <Header />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <FAQRoadmap />
-        <FAQ />
-        <Footer />
+        <About2 />
       </Layout>
     );
   };
   
-  export default RoadmapPage;
+  export default StakePage;

@@ -21,7 +21,7 @@ const data = [
   {
     title: "HARAMBE SPACE CLUB",
     text: "'Harambe space club' is an immersive, action-packed top down battle royale. We've partnered with a highly experienced game studio to begin development of this incredible game and bring our visions to life.",
-    image: <img src={rm3} />
+    image: <img src={rm3} width="67%" height="67%" />
   },
   {
     title: "3D HARAMBIANS & APP",

@@ -18,8 +18,8 @@ const About = () => {
         <div className="row flex-row-reverse">
           <div className="col-md-6">
             <div className="v1_about_us_right_sect">
-              <center><SectionTitle title="ABOUT US"/></center>
-              <div className="v1_about_us_right_text">
+              <center><SectionTitle title="ASCENSION"/></center>
+              <div className="v1_about_us_right_text"> {/* ASCENSION Logo */}
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>
               </div>

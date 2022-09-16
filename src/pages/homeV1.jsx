@@ -23,6 +23,7 @@ import FAQRoadmap from "../components/section/faq/faq-roadmap/Faq";
 import newBg from "../assets/riph/riph-bg-again.png";
 import About2 from "../components/section/about/v2/About";
 import Team2 from "../components/section/team/v4";
+import Footer3 from "../components/section/footer/v3";
 
 const HomeV1 = () => {
   const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
@@ -38,19 +39,19 @@ const HomeV1 = () => {
       {/*<center>
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
   </center>*/}
+      <About /> {/* Game debrief*/}
       <Banner />
-      <center>
+      <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
+      <center><Counter /></center>
+      <center> {/* Move this video into a styled component and add top and bottom padding/border aligned with rest of global styles */}
         <video src={video1} width="100%" height="30%" autoPlay="true" loop="true" border-radius="15px" />
       </center>
-      <div className="moving-background"></div>
-      <About /> {/* Game debrief, add a carousel of Harambians (duplicate partners slider and update carousel settings -> sliding across) */}
-      <center><Counter /></center>
-      <CharacterSlider /> {/* Center title */}
-      <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
       <HowToMint />
       <Team />
+      <CharacterSlider /> 
       <FAQ />
       <Footer />
+      <Footer3 />
     </Layout>
   );
 };

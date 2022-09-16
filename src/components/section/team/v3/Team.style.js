@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TeamStyleWrapper = styled.section`
-  margin-top: 50px;
+  margin-top: 120px;
   background: rgba(33, 33, 33, 0.5); 
   backdrop-filter: blur(5px);
   position: center;

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="top-footer-content">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            {/*<div className="col-lg-4">
               <div className="footer_image">
                 <a href="# ">
                   <img src={footerLogo} alt="riph nft footer logo" />
@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* link widgets  */}
+            {/* link widgets  
             {data?.map((menu, i) => (
               <div key={i} className=" col-sm-6 col-md-3 col-lg-2 link-widgets">
                 <div className="footer-menu">
@@ -38,10 +38,10 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-            ))}
+            ))}*/}
             <div className="col-md-6 col-lg-4">
               <div className="footer-menu footer_newsletter">
-                <h5 className="menu-title">Subscribe Newsletter</h5>
+                <h5 className="menu-title">Subscribe to our newsletter</h5>
                 <div className="form-box">
                   <input
                     type="text"

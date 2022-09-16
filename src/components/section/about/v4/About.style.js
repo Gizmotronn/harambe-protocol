@@ -1,14 +1,11 @@
 import styled from "styled-components";
-import aboutBg from "../../../../assets/riph/riph-bg-again.png";
+import aboutBg from "../../../../assets/riph/bg1.png";
 const AboutStyleWrapper = styled.section` 
     min-height: 800px; 
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding-top: 200px;
+    padding-bottom: 133px;
     background: url(${aboutBg}); 
-    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; 
 
     .v2_about_overlay {
         width: 100%;
