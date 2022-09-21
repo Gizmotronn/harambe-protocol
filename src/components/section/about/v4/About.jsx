@@ -1,4 +1,4 @@
-import SectionTitle from "../../../../common/sectionTitle";
+/*import SectionTitle from "../../../../common/sectionTitle";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import Counter from "../../../../common/counter";
 
@@ -54,7 +54,7 @@ const About = ({ accounts, setAccounts }) => {
     if (mintAmount => 3) return; // prevent user from interacting with >3 tokens at a time (in a single transaction)
     setMintAmount(mintAmount + 1);
   }
-*/}
+}
 
   return (
     <AboutStyleWrapper className="v2_about_us_section" id="about">
@@ -104,3 +104,4 @@ const About = ({ accounts, setAccounts }) => {
 };
 
 export default About;
+*/

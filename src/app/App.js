@@ -6,6 +6,9 @@ import Blogs from "../pages/blogs";
 import RoadmapPage from "../pages/Roadmap";
 import BlogDetails from "../pages/blogDetails";
 import StakePage from "../pages/stake";
+import { Provider as WagmiProvider } from "wagmi";
+import { providers } from 'ethers';
+import { useState } from 'react';
 
 function App() {
   return (

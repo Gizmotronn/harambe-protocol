@@ -3,6 +3,9 @@ import styled from "styled-components";
 const CharacterSliderWrapper = styled.section`
   position: relative;
   z-index: 1;
+  width: 77%;
+  position: center;
+  margin-top: 120px;
 
   .slick-slider {
     .slick-list {
@@ -10,7 +13,7 @@ const CharacterSliderWrapper = styled.section`
     }
 
     .slick-slide {
-      height: auto; // ← that must not be ignored
+      height: auto; // ← this must not be ignored
     }
     .slick-track {
       display: flex;

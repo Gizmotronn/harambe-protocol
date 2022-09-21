@@ -39,9 +39,43 @@ const Footer = () => {
                 </div>
               </div>
             ))}*/}
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <center>
             <div className="col-md-6 col-lg-4">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
               <div className="footer-menu footer_newsletter">
-                <h5 className="menu-title">Subscribe to our newsletter</h5>
+                <h1 className="menu-title">WILL YOU ASCEND?</h1>
+                <h5 className="menu-title">Pre-Register now!</h5>
                 <div className="form-box">
                   <input
                     type="text"
@@ -55,11 +89,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
+            </center>
           </div>
         </div>
       </div>
-      {/* footer bottom  */}
-      <FooterBottom />
+      {/* footer bottom 
+      <FooterBottom /> */}
     </FooterStyleWrapper>
   );
 };

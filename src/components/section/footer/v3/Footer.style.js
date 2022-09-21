@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import footerBG from "../../../../assets/images/bg/footer_bg3.jpg";
+import footerBG from "../../../../assets/riph/riph-bg-again.png";
 
 const FooterStyleWrapper = styled.footer`
-  a {
+  a { 
     display: block;
     text-decoration: none;
     color: inherit;
@@ -12,7 +12,8 @@ const FooterStyleWrapper = styled.footer`
   }
   /* footer top  */
   .top-footer-content {
-    padding-top: 150px;
+    min-height: 1000px;
+    padding-top: 100px;
     background: url(${footerBG});
     background-position: center;
     background-size: cover;
@@ -31,7 +32,7 @@ const FooterStyleWrapper = styled.footer`
     .footer-menu {
       .menu-title {
         color: #fff;
-        margin-bottom: 45px;
+        margin-bottom: 16px;
       }
       ul {
         margin: 0;
@@ -50,21 +51,24 @@ const FooterStyleWrapper = styled.footer`
     .footer_newsletter {
       .form-box {
         position: relative;
+        border-radius: 15px;
       }
       input,
       button {
         height: 60px;
+        border-radius: 15px;
         &:focus {
           outline: none;
         }
       }
       input {
         width: 100%;
-        background: transparent;
-        border: 2px solid #343d40;
+        background: #ffffff;
+        
         color: rgba(255, 255, 255, 0.7);
 
         line-height: 60px;
+        border: 2px solid #ffffff;
         padding: 0 20px;
       }
 
@@ -73,12 +77,12 @@ const FooterStyleWrapper = styled.footer`
         width: 70px;
         position: absolute;
         right: 0;
-        background: #00ffa3;
+        background: #ad2f2f;
         border: none;
         transition: all 0.3s;
 
         &:hover {
-          background-color: #00eb96;
+          background-color: #750707;
         }
       }
     }
@@ -95,7 +99,7 @@ const FooterStyleWrapper = styled.footer`
 
     .footer-menu{
       .menu-title{
-        margin-bottom: 32px;
+        margin-bottom: 16px;
       }
     }
   }
@@ -106,7 +110,7 @@ const FooterStyleWrapper = styled.footer`
 
     .footer-menu{
       .menu-title{
-        margin-bottom: 32px;
+        margin-bottom: 16px;
       }
     }
 

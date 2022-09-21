@@ -5,6 +5,7 @@ const HowToMintWrapper = styled.section`
 
   .how_to_mint_container {
     position: relative;
+    margin-top: 120px;
 
     .how_to_mint_shadow {
       position: absolute;

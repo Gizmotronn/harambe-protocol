@@ -35,11 +35,12 @@ const HomeV1 = () => {
       {metamaskModalVisibility && <MetamaskModal/> }
       {connectWalletModal && <ConnectWallet/> }
       <Header />
-      <About2 />
+      <Footer3 />
+      {/*<About2 />*/}
       {/*<center>
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
   </center>*/}
-      <About /> {/* Game debrief*/}
+      <About /> {/* Game debrief*/} {/* Add another ABOUT US section below the team section -> specifically about Rambe games */}
       <Banner />
       <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
       <center><Counter /></center>
@@ -49,9 +50,9 @@ const HomeV1 = () => {
       <HowToMint />
       <Team />
       <CharacterSlider /> 
-      <FAQ />
+      {/* Add another signup form here */}
       <Footer />
-      <Footer3 />
+      
     </Layout>
   );
 };

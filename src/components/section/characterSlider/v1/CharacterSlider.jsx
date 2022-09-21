@@ -16,7 +16,7 @@ const CharacterSlider = () => {
     centerMode: true,
     centerPadding: "0px",
     infinite: true,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
       {
@@ -50,7 +50,9 @@ const CharacterSlider = () => {
     ],
   };
   return (
-    <CharacterSliderWrapper>
+    <div>
+      <center>
+      <CharacterSliderWrapper>
       <HowToMintWrapper>
         <div className="container how_to_mint_container">
           <center><SectionTitle
@@ -69,6 +71,8 @@ const CharacterSlider = () => {
         ))}
       </Slider>
     </CharacterSliderWrapper>
+    </center>
+    </div>
   );
 };
 

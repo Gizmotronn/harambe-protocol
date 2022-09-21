@@ -23,7 +23,7 @@ const FAQRoadmap = () => {
   };
 
   return (
-    <FAQStyleWrapper className="riph_faq_sect" id="faq">
+    <FAQStyleWrapper className="riph_faq_sect" id="roadmap">
       <div className="container">
         <div className="riph_faq_content">
           <SectionTitle

@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
+// position: absolute; -> underneath `&.riph_header` -> removes the scroll lock for the header bg shade/gradient
 const NavWrapper = styled.nav`
   z-index: 999;
   &.riph_header {
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;

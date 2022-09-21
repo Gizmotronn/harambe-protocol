@@ -75,7 +75,7 @@ const Header = () => {
                   <a href="#team">Team</a>
                 </li>
                 <li>
-                  <a href="#faq">FAQ</a>
+                  <a href="/roadmap#faq">FAQ</a>
                 </li>
                 {/*<li className="submenu">
                   <a href="# ">Pages +</a>
