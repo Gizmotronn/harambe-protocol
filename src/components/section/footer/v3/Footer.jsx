@@ -3,6 +3,7 @@ import FooterBottom from "./footerBottom/FooterBottom";
 import data from "../../../../assets/data/footer/footerDataV3";
 import footerLogo from "../../../../assets/images/logo.png";
 import btnArrow from "../../../../assets/images/blog/arrow-icon.png";
+import bgImage2 from "../../../../assets/riph/dvstrip.png";
 
 import FooterStyleWrapper from "./Footer.style";
 const Footer = () => {
@@ -11,6 +12,7 @@ const Footer = () => {
       <div className="top-footer-content">
         <div className="container">
           <div className="row">
+            
             {/*<div className="col-lg-4">
               <div className="footer_image">
                 <a href="# ">
@@ -39,12 +41,6 @@ const Footer = () => {
                 </div>
               </div>
             ))}*/}
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <center>

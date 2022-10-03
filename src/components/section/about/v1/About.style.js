@@ -17,6 +17,16 @@ const AboutStyleWrapper = styled.section`
   .v1_about_us_right_text {
     margin-top: 46px;
 
+    h1 {
+      font-family: "PT Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 28px;
+      color: #ffffff;
+      padding-bottom: 40px;
+    }
+
     p {
       font-family: "PT Sans", sans-serif;
       font-style: normal;
@@ -24,6 +34,16 @@ const AboutStyleWrapper = styled.section`
       font-size: 16px;
       line-height: 28px;
       color: rgba(255, 255, 255, 0.8);
+      padding-bottom: 40px;
+    }
+
+    h3 {
+      font-family: "PT Sans", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color:  #ffffff;
       padding-bottom: 40px;
     }
   }
@@ -149,7 +169,7 @@ const AboutStyleWrapper = styled.section`
   /* list */
 
   .about_us_text_card_sect {
-    margin-top: 120px;
+    margin-top: 1px;
   }
     .about_us_text_card {
       background: rgba(255, 255, 255, 0.05);

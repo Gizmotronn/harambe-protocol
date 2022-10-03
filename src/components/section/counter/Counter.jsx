@@ -21,19 +21,19 @@ https://api.bscscan.com/api
 */
 
 const CoinInfoCounter = () => {
-  var api = require("bscscan-api").init("S5H6R74273RYSJ8RZ6FJ6MFWIED7WGNA7F"); // api key - change periodically to prevent exposure
+  var api = require("bscscan-api").init("AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK"); // api key - change periodically to prevent exposure
   var balance = api.account.balance("0x10964c2ffdea1e99b5e26d102516d9b03368915f"); // contract address
   balance.then(function (balanceData) {
     console.log(balanceData);
   });
   const { info } = coinInfoCounterData;
 
-  const circulatingSupplyRequest = 'https://api.bscscan.com/api?module=stats&action=tokenCsupply&contractaddress=0x10964C2ffDEA1e99B5e26D102516d9b03368915f&apikey=S5H6R74273RYSJ8RZ6FJ6MFWIED7WGNA7F'
+  const circulatingSupplyRequest = 'https://api.bscscan.com/api?module=stats&action=tokenCsupply&contractaddress=0x10964C2ffDEA1e99B5e26D102516d9b03368915f&apikey=AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK'
   fetch(circulatingSupplyRequest)
   .then(data=>{return data.json()})
   .then(res=>{console.log(res)});
 
-  const tokenInfo = 'https://api.bscscan.com/api?module=token&action=tokeninfo&contractaddress=0x10964c2ffdea1e99b5e26d102516d9b03368915f&apikey=S5H6R74273RYSJ8RZ6FJ6MFWIED7WGNA7F'
+  const tokenInfo = 'https://api.bscscan.com/api?module=token&action=tokeninfo&contractaddress=0x10964c2ffdea1e99b5e26d102516d9b03368915f&apikey=AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK'
   fetch(tokenInfo)
   .then(data=>{return data.json()})
   .then(res=>{console.log(res)});

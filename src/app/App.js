@@ -9,6 +9,7 @@ import StakePage from "../pages/stake";
 import { Provider as WagmiProvider } from "wagmi";
 import { providers } from 'ethers';
 import { useState } from 'react';
+import RoadmapPage1 from "../pages/Roadmap1";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/post" element={<BlogDetails />} />
       <Route path="/roadmap" element={<RoadmapPage />} />
+      <Route path="/stake1" element={<RoadmapPage1 />} />
       <Route path="/stake" element={<StakePage />} />
     </Routes>
   );

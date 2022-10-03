@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import footerBG from "../../../../assets/riph/riph-bg-again.png";
+import footerBG from "../../../../assets/riph/riph-bg-again1.jpg";
+import ventBg from "../../../../assets/riph/dvstrip.png";
 
 const FooterStyleWrapper = styled.footer`
   a { 
@@ -22,6 +23,7 @@ const FooterStyleWrapper = styled.footer`
 
     .footer_image {
       padding-right: 55px;
+      background: url(${ventBg});
       p {
         margin-top: 45px;
         font-weight: 500;
@@ -87,6 +89,69 @@ const FooterStyleWrapper = styled.footer`
       }
     }
   }
+
+  .bithu_v1_baner_right {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 66px;
+
+    .mint_live_circle_sect {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      border: none;
+      background: #ffe600;
+      position: absolute;
+      top: -65px;
+      left: -65px;
+      z-index: 1;
+
+      .mint_live_circle {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+        .mint_live_text {
+          position: absolute;
+        }
+      }
+    }
+
+    .bithu_v1_baner_right_img_sect {
+      position: relative;
+      width: 100%;
+      height: 550px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .bithu_v1_baner_right_img_bg {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .bithu_v1_baner_right_img {
+        position: relative;
+        z-index: 1;
+      }
+    }
+  }
+
   @media only screen and (max-width: 768px) {
     .top-footer-content{
       

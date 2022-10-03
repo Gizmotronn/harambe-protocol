@@ -4,7 +4,8 @@ import aboutCardIcon3 from "../../images/icon/aboutus_card_icon3.svg"
 import harambe from "../../riph/harambe1.png"
 
  const data = {
-    aboutDescription1: 'The $RIPH token fuels the ecosystem of ventures developed by Harambe Protocol. Our first venture is the Harambe Space Club',
+    aboutDescription1: "An immersive MMO game of cooperation & deception as the Harambians awake from their Cryopods with no memory of their past, having to rebuild their society. As the competing districts fight for power, players must form alliances and work together to overcome the opposition through PvP combat, resource farming and global trades; building the most powerful economy. However, each district has a hierarchy, the higher you are the more perks and rewards you receive... And the more players within your district that want your position. Leading the district? you must lead a successful economy whilst also watching your back. Will greed and deceit undo your districts economy? Or will the chaos make it thrive? "
+    ,
     aboutInfo: [
         {
             //icon: aboutCardIcon1,
@@ -14,7 +15,7 @@ import harambe from "../../riph/harambe1.png"
         {
             //icon: aboutCardIcon2,
             title: "TOKEN STAKING",
-            text: 'Once you own $RIPH you will be able to stake it for passive rewards. The staking contract address is 0x10964c2ffdea1e99b5e26d10'
+            text: 'Once you own $RIPH you will be able to stake it for passive rewards. The staking contract address is TBA'
         },
         {
             //icon: aboutCardIcon3,

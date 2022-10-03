@@ -29,7 +29,7 @@ const HomeV1 = () => {
   const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
   return (
     <Layout>
-       <GlobalStyles /> 
+      <GlobalStyles /> 
       {visibility && <MintNowModal />}
       {walletModalvisibility && <WalletModal />}
       {metamaskModalVisibility && <MetamaskModal/> }
@@ -45,7 +45,7 @@ const HomeV1 = () => {
       <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
       <center><Counter /></center>
       <center> {/* Move this video into a styled component and add top and bottom padding/border aligned with rest of global styles */}
-        <video src={video1} width="100%" height="30%" autoPlay="true" loop="true" border-radius="15px" />
+        <video src={video1} width="100%" height="30%" autoPlay={true} loop="true" border-radius="15px" />
       </center>
       <HowToMint />
       <Team />

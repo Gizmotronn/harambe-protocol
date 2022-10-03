@@ -7,14 +7,11 @@ const TeamMember = ({ avatar, name, designation, socialLinks }) => {
       <div className="riph_team_card">
         <center>
           <div className="team_member_img">
-            <img src={avatar} alt="riph nft team avatar" height="45%" width="45%" />
-            <img src={avatar} height="15%" width="15%" /> {/* Maybe look at padding alternative to force it on top of main avatar? */}
+            <img src={avatar} alt="riph nft team avatar" height="85%" width="85%" />
           </div>
         </center>
-        
         <h3>{name}</h3>
         <h4>{designation}</h4>
-
         <div className="team_social_icon">
           <ul>
             {socialLinks?.map((item, i) => (

@@ -33,14 +33,12 @@ const NavWrapper = styled.nav`
   }
 
   .riph_menu_left_sect {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 15%;
+    width: 40%;
 
     .logo {
       a {
         display: inline-block;
+        width: 75%;
       }
     }
   }
@@ -53,7 +51,7 @@ const NavWrapper = styled.nav`
   }
 
   .riph_menu_list {
-    margin-left: 65px;
+    margin-left: 5px;
     margin-right: 96px;
     max-width: 514px;
     min-width: 409px;
@@ -75,7 +73,7 @@ const NavWrapper = styled.nav`
           font-style: normal;
           font-weight: 400;
           font-size: 16px;
-          line-height: 22px;
+          line-height: 25px;
           text-align: center;
           text-transform: uppercase;
           color: #ffffff;

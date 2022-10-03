@@ -17,6 +17,7 @@ const BannerV1Wrapper = styled.section`
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  margin-top: 80px;
 
   .riph_v1_baner_left {
     max-width: 500px;
@@ -131,7 +132,6 @@ const BannerV1Wrapper = styled.section`
       .riph_v1_baner_right_img {
         position: relative;
         z-index: 1;
-        height: 100%;
       }
     }
   }
