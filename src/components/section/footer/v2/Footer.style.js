@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import footerBG from "../../../../assets/images/nft/v2_footer_bg.png";
 
 const FooterStyleWrapper = styled.footer`
   padding-top: 105px;
@@ -7,7 +6,6 @@ const FooterStyleWrapper = styled.footer`
 
   &::before {
     position: absolute;
-    background: url(${footerBG});
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

@@ -110,7 +110,7 @@ const Header = () => {
               </Button>
               { account ?
               <Dropdown>
-                <Dropdown.Toggle variant="white" id="dropdown-basic" className="connect_btn">
+                <Dropdown.Toggle variant="white" id="dropdown-basic" className="connect_btn" margin-right="40px">
                   CONNECTED{/*{ substr(account.toString(), 15) }*/}
                 </Dropdown.Toggle>
           

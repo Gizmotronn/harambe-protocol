@@ -9,7 +9,7 @@ import HowToMint from "../components/section/howToMint/v1";
 import About from "../components/section/about/v1";
 import Team from "../components/section/team/v3";
 import FAQ from "../components/section/faq/v1";
-import Footer from "../components/section/footer/v1";
+import Footer from "../components/section/footer/v2";
 import MintNowModal from "../common/modal/mintNowModal";
 import WalletModal from "../common/modal/walletModal/WalletModal";
 import MetamaskModal from "../common/modal/metamask/MetamaskModal";
@@ -45,14 +45,13 @@ const HomeV1 = () => {
       <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
       <center><Counter /></center>
       <center> {/* Move this video into a styled component and add top and bottom padding/border aligned with rest of global styles */}
-        <video src={video1} width="100%" height="30%" autoPlay={true} loop="true" border-radius="15px" />
+        <video src={video1} width="100%" height="30%" autoPlay={true} loop="true" border-radius="15px" muted/>
       </center>
       <HowToMint />
       <Team />
       <CharacterSlider /> 
       {/* Add another signup form here */}
       <Footer />
-      
     </Layout>
   );
 };

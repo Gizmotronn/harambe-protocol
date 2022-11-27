@@ -6,6 +6,36 @@ const TeamStyleWrapper = styled.section`
   backdrop-filter: blur(5px);
   position: center;
 
+  img {
+    //border-radius: 50px;
+  }
+
+  /*
+  position: absolute;
+  bottom: -10%;
+  right: -20%;
+  left: 80%;
+  top: 70%;
+  */
+
+  h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 4px;
+  }
+
+  h4 {
+    color: #ad2f2f;
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    margin: 0;
+  }
+
   .v1_team_overlay {
     padding: 0px 0 140px 0;
     position: center;

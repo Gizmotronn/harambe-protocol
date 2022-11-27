@@ -19,6 +19,7 @@ const HowToMintWrapper = styled.section`
 
     .how_to_mint_content {
       margin-top: 50px;
+      margin-left: 110px;
       position: relative;
       z-index: 1;
 

@@ -3,20 +3,26 @@ import { FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
 import avatarThumb1 from "../../images/team/crew_avatar1.png";
 import avatarThumb2 from "../../images/team/crew_avatar2.png";
 import avatarThumb3 from "../../images/team/crew_avatar3.png";
-import avatarThumb4 from "../../riph/AlexH.png"; //"../../images/team/v2_team_4.png";
+import avatarThumb4 from "../../riph/anna.jpg"; //"../../images/team/v2_team_4.png";
 import avatarThumb5 from "../../images/team/crew_avatar5.png";
 import avatarThumb6 from "../../images/team/crew_avatar6.png";
 import avatarThumb7 from "../../images/team/crew_avatar7.png";
 import avatarThumb8 from "../../images/team/crew_avatar8.png";
-import Alex from "../../riph/AlexH.png";
-import Jai from "../../riph/AlexH.png"; //"../../riph/BigTurnz.png";
-import KYU from "../../riph/AlexH.png"; //"../../riph/KYU.jpg";
+import Alex from "../../riph/Alex.jpg";
+import Jai from "../../riph/BigTurnz.jpeg"; //"../../riph/BigTurnz.png";
+import KYU from "../../riph/ksuu.jpg"; //"../../riph/KYU.jpg";
+import AlexH from "../../riph/alexh.png";
+import hard from "../../riph/hard.png";
+import JaiH from "../../riph/JaiH.png";
+import KyuH from "../../riph/KyuH.png";
+import AnnaH from "../../riph/AnnaH.png";
 
 const data = [
   {
     avatar: Jai,
     name: "Jai Turnor",
     designation: "Founder",
+    harambe: JaiH,
     socialLinks: [
       {
         icon: <FaLinkedinIn />,
@@ -31,8 +37,9 @@ const data = [
   },
   {
     avatar: Alex,
-    name: "Alex",
+    name: "Alex Garcia",
     designation: "Project Manager",
+    harambe: AlexH,
     socialLinks: [
       {
         icon: <FaLinkedinIn />,
@@ -49,6 +56,7 @@ const data = [
     avatar: KYU,
     name: "KYU",
     designation: "Artist",
+    harambe: KyuH,
     socialLinks: [
       {
         icon: <FaTwitter />,
@@ -60,6 +68,7 @@ const data = [
     avatar: avatarThumb4,
     name: "Anna",
     designation: "Community",
+    harambe: AnnaH,
     socialLinks: [
       {
         icon: <FaTwitter />,

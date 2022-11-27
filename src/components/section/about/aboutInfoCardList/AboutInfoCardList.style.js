@@ -6,6 +6,7 @@ const AboutInfoCardListWrapper = styled.div`
     margin-top: 120px; 
     z-index: 1;
     border-radius: 15px;
+    margin-left: 320px;
 
 
     @media only screen and (max-width: 991px) {

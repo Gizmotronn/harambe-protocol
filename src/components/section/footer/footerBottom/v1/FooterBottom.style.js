@@ -3,7 +3,6 @@ import styled from "styled-components";
 const FooterBottomStyleWrapper = styled.div`
   position: relative;
   width: 100%;
-  margin-top: 494px;
 
   .v2_main_footer {
     width: 100%;

@@ -41,9 +41,7 @@ const About = () => {
           </div>
           <div className="col-md-6">
             <div className="v1_about_us_left_sect sm-mt-60">
-            
               <div className="v1_about_us_img_card v1_about_us_img_card1">
-              
                 <div className="v1_about_us_img v1_about_us_img1">
                   <img src={h1} alt="img" />
                 </div>
@@ -77,6 +75,11 @@ const About = () => {
         <br />
         <br />
         <RiphDropdown />
+        <br />
+        <br />
+        <br />
+        <br />
+        <center><AboutInfoCardList /></center>
       </div>
     </AboutStyleWrapper>
   );

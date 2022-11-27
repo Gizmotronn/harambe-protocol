@@ -1,7 +1,7 @@
 const data = [
   {
     title: "All token info goes here",
-    text: "Lorem ipsum those are the only two words of the popular dummy text format popularised during the invention of the printing press, that I, Liam Arbuckle, know, so therefore I am a failed web designer xddddd.",
+    text: "THE 'RIPH' TOKEN FUELS THE IN-GAME ECOSYSTEM OF OUR MMO 'ASCENSION'. 'RIPH' WILL BE REQUIRED TO UNLOCK ALL HARAMBIAN CRYOPODS AND WILL BE THE ONLY WAY TO BUY AND UNLOCK FUTURE CRYOPODS AFTER THE FIRST MINT. 'RIPH' IS ALSO STAKEABLE FOR PASSIVE REWARDS. IN HONOR OF THE LATE HARAMBE, WE'RE DEDICATED TO PASSIVELY FUNDING GORILLA CONSERVATION THROUGH OUR IN-GAME NFT REVENUE."
   },
 ];
 

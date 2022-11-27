@@ -13,7 +13,7 @@ const FAQStyleWrapper = styled.section`
   .riph_faq_questions {
     border-radius: 15px;
     margin-top: 57px;
-    position: relative;
+    position: center;
 
     .faq_questions {
       position: relative;
@@ -35,6 +35,7 @@ const FAQStyleWrapper = styled.section`
       display: flex;
       align-items: center;
       height: 76px;
+      margin-left: 280px;
       margin-bottom: 0px;
       padding: 0 29px;
       color: rgba(255, 255, 255, 0.8);

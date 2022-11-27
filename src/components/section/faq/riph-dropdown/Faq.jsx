@@ -12,6 +12,7 @@ import {
 } from "../../../../common/accordion/Accordion";
 import data from "../../../../assets/data/token";
 import FAQStyleWrapper from "./Faq.style";
+import tokenFlow from "../../../../assets/riph/tokenflow.webp";
 
 const RiphDropdown = () => {
   const handleExpand = (e) => {
@@ -27,8 +28,8 @@ const RiphDropdown = () => {
             <Accordion className="faq_questions">
               {data?.map((item, i) => (
                 <AccordionItem key={i}>
-                  <AccordionTitle handleExpand={handleExpand}>
-                    <h5>{item.title}</h5>
+                  <center><AccordionTitle handleExpand={handleExpand}>
+                    <h5>$RIPH TOKEN</h5>
                     <IconWrapper>
                       <OpenIcon>
                         <FaMinus />
@@ -37,9 +38,14 @@ const RiphDropdown = () => {
                         <FaPlus />
                       </CloseIcon>
                     </IconWrapper>
-                  </AccordionTitle>
+                  </AccordionTitle></center>
                   <AccordionBody>
-                    <p>{item.text}</p>
+                    <p>The '$RIPH' token fuels the in-game ecosystem of our MMO 'Ascension'. </p>
+<p>'$RIPH' will be required to unlock all Harambian Cryopods and will be the only way to buy and unlock future Cryopods after the first mint. '$RIPH' is also stakeable for passive rewards.</p>
+
+<p>In honour of the late Harambe, we're dedicated to passively funding gorilla conservation through our in-game NFT revenue.
+</p>
+<img src={tokenFlow} />
                   </AccordionBody>
                 </AccordionItem>
               ))}

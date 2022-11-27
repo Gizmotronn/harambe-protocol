@@ -94,7 +94,6 @@ const FooterStyleWrapper = styled.footer`
     max-width: 500px;
     width: 100%;
     margin-left: auto;
-    margin-top: 66px;
 
     .mint_live_circle_sect {
       display: flex;
@@ -156,9 +155,9 @@ const FooterStyleWrapper = styled.footer`
     .top-footer-content{
       
     .footer_image{
-      margin-bottom: 40px;
+      margin-bottom: 0px;
       p {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     }
 

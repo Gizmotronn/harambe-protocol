@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 const TeamMemberStyleWrapper = styled.article`
   .riph_team_card {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
     max-width: 100%;
-    height: 300px;
+    height: 375px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,17 +22,30 @@ const TeamMemberStyleWrapper = styled.article`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       text-align: center;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 19px;
       color: rgba(255, 255, 255, 0.8);
       margin: 0;
+      margin-top: 5px;
+      color: #ad2f2f;
+    }
+
+    img {
+      border-radius: 50px;
+      position: relative;
+    }
+
+    .harambian {
+      position: absolute;
+      top: 180px;
+      margin-left: -75px;
     }
   }
 
   .team_social_icon {
     width: 100%;
     position: absolute;
-    bottom: 120px;
+    bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +59,7 @@ const TeamMemberStyleWrapper = styled.article`
       padding: 0;
 
       li {
-        height: 25px;
+        height: 0px;
         width: 37px;
         background: #0f181d;
         opacity: 0;

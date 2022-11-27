@@ -4,7 +4,7 @@ import styled from "styled-components";
 const NavWrapper = styled.nav`
   z-index: 999;
   &.riph_header {
-    
+    margin-left: -58px;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,7 +19,6 @@ const NavWrapper = styled.nav`
       background: rgba(33, 33, 33, 0.8);
       backdrop-filter: blur(15px);
       z-index: 1000;
-      margin-top: 0px;
       transition: all 0.2s;
     }
   }
@@ -44,22 +43,22 @@ const NavWrapper = styled.nav`
   }
 
   .riph_menu_right_sect {
-    width: 85%;
+    width: 100%;
     display: flex;
+    margin-right: -44px;
     align-items: center;
-    justify-content: end;
+    justify-content: right;
   }
 
   .riph_menu_list {
-    margin-left: 5px;
-    margin-right: 96px;
+    margin-right: 190px;
     max-width: 514px;
     min-width: 409px;
     width: 100%;
     ul {
       width: 100%;
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: space-between;
       margin: 0;
       padding: 0;
@@ -138,9 +137,6 @@ const NavWrapper = styled.nav`
 
   .riph_menu_btns {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    align-items: center;
     min-width: 284px;
     button {
       color: #FFFFFF;

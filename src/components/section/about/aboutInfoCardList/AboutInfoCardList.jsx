@@ -5,13 +5,13 @@ const AboutInfoCardList = () => {
   const { aboutInfo } = data; 
   return (
     <AboutInfoCardListWrapper className="about_us_text_card_sect">
-      <div className="row">
+      <center><div className="row">
         {aboutInfo?.map((item, i) => (
           <div key={i} className="col-md-4">
             <AboutCard {...item} />
           </div>
         ))}
-      </div>
+      </div></center>
     </AboutInfoCardListWrapper>
   );
 };

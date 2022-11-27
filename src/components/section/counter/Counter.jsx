@@ -4,6 +4,7 @@ import bgShape2 from "../../../assets/images/icon/square_shape_2.png";
 
 import CoinInfoCounterWrapper from "./Counter.style";
 import coinInfoCounterData from "../../../assets/data/coinInfoCounter.json"; // Convert this to a JS file like in roadmap/faq.js
+import coinInfo from "../../../assets/data/coinInfoCounter";
 
 /* Web requests structure
 https://api.bscscan.com/api
@@ -11,6 +12,12 @@ https://api.bscscan.com/api
    &action=tokenCsupply
    &contractaddress=0xe9e7cea3dedca5984780bafc599bd69add087d56
    &apikey=YourApiKeyToken
+
+https://api.bscscan.com/api
+   ?module=stats
+   &action=tokenCsupply
+   &contractaddress=0x10964c2ffdea1e99b5e26d102516d9b03368915f
+   &apikey=S5H6R74273RYSJ8RZ6FJ6MFWIED7WGNA7F
 
 Token info:
 https://api.bscscan.com/api
@@ -21,22 +28,17 @@ https://api.bscscan.com/api
 */
 
 const CoinInfoCounter = () => {
-  var api = require("bscscan-api").init("AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK"); // api key - change periodically to prevent exposure
-  var balance = api.account.balance("0x10964c2ffdea1e99b5e26d102516d9b03368915f"); // contract address
-  balance.then(function (balanceData) {
-    console.log(balanceData);
-  });
-  const { info } = coinInfoCounterData;
-
-  const circulatingSupplyRequest = 'https://api.bscscan.com/api?module=stats&action=tokenCsupply&contractaddress=0x10964C2ffDEA1e99B5e26D102516d9b03368915f&apikey=AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK'
-  fetch(circulatingSupplyRequest)
+  const totalSupply = 'https://api.bscscan.com/api?module=stats&action=tokenCsupply&contractaddress=0x10964c2ffdea1e99b5e26d102516d9b03368915f&apikey=AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK'
+  fetch(totalSupply)
   .then(data=>{return data.json()})
   .then(res=>{console.log(res)});
 
   const tokenInfo = 'https://api.bscscan.com/api?module=token&action=tokeninfo&contractaddress=0x10964c2ffdea1e99b5e26d102516d9b03368915f&apikey=AY2V4Y3YWKM8QS8EN71Y5HZ7CR28MSHTBK'
   fetch(tokenInfo)
-  .then(data=>{return data.json()})
+  .then(data =>{return data.json()})
   .then(res=>{console.log(res)});
+
+  const { info } = coinInfoCounterData;
 
   return (
     <CoinInfoCounterWrapper>

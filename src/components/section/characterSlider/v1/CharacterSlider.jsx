@@ -16,7 +16,7 @@ const CharacterSlider = () => {
     centerMode: true,
     centerPadding: "0px",
     infinite: true,
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {

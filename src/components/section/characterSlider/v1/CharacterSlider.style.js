@@ -5,7 +5,7 @@ const CharacterSliderWrapper = styled.section`
   z-index: 1;
   width: 77%;
   position: center;
-  margin-top: 120px;
+  margin-top: 5px;
 
   .slick-slider {
     .slick-list {
