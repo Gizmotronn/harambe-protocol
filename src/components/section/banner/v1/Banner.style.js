@@ -17,14 +17,14 @@ const BannerV1Wrapper = styled.section`
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  margin-top: 80px;
+  margin-top: 70px;
 
   .riph_v1_baner_left {
     max-width: 500px;
     width: 100%;
-    min-height: 650px;
+    min-height: 550px;
     display: flex;
-    align-items: flex-start;
+    align-items: flex;
     justify-content: center;
     flex-direction: column;
 
@@ -32,8 +32,8 @@ const BannerV1Wrapper = styled.section`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 60px;
-      line-height: 80px;
+      font-size: 45px;
+      line-height: 15px;
       text-transform: uppercase;
       color: #ffffff;
       margin-bottom: 32px;
@@ -43,10 +43,10 @@ const BannerV1Wrapper = styled.section`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 400;
-      font-size: 40px;
-      line-height: 60px;
+      font-size: 35px;
+      line-height: 30px;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #cc1010;
     }
 
     .banner_buttons {
@@ -78,7 +78,7 @@ const BannerV1Wrapper = styled.section`
   .riph_v1_baner_right {
     max-width: 500px;
     width: 100%;
-    margin-left: auto;
+    margin-right: auto;
 
     .mint_live_circle_sect {
       display: flex;
@@ -111,7 +111,7 @@ const BannerV1Wrapper = styled.section`
     .riph_v1_baner_right_img_sect {
       position: relative;
       width: 100%;
-      height: 100%;
+      height: 120%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -120,8 +120,8 @@ const BannerV1Wrapper = styled.section`
         position: absolute;
         top: 0px;
         left: 0px;
-        width: 100%;
-        height: 200%;
+        width: 10%;
+        height: 20%;
         z-index: 0;
         img {
           width: 100%;
@@ -131,6 +131,8 @@ const BannerV1Wrapper = styled.section`
 
       .riph_v1_baner_right_img {
         position: relative;
+        width: 80%;
+        height: 80%;
         z-index: 1;
       }
     }

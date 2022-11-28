@@ -41,6 +41,20 @@ const Footer12 = () => {
                     
                     <p>
                     <div className="mobile_menu_social_links">
+                      <ul>
+                        <li>
+                          <a href="/staking">Staking</a>
+                        </li>
+                        <li>
+                          <a href="/staking">Staking</a>
+                        </li>
+                        <li>
+                          <a href="/staking">Staking</a>
+                        </li>
+                        <li>
+                          <a href="/staking">Staking</a>
+                        </li>
+                      </ul>
                       <p>
                         <a href="# ">
                           <FaDiscord />

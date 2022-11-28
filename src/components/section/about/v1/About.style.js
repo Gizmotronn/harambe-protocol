@@ -8,7 +8,7 @@ const AboutStyleWrapper = styled.section`
   background-position: center left;
   background-repeat: no-repeat;
   min-height: 901px;
-  padding-top: 40px;
+  padding-top: 30px;
   p {
     margin-bottom: 0;
   }
@@ -21,8 +21,8 @@ const AboutStyleWrapper = styled.section`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 500;
-      font-size: 28x;
-      line-height: 20px;
+      font-size: 24x;
+      line-height: 2px;
       color: #ffffff;
       padding-bottom: 20px;
     }
@@ -31,8 +31,8 @@ const AboutStyleWrapper = styled.section`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 13px;
+      line-height: 15px;
       color: rgba(255, 255, 255, 0.8);
       padding-bottom: 20px;
     }
@@ -55,7 +55,7 @@ const AboutStyleWrapper = styled.section`
     position: relative;
     max-width: 560px;
     width: 100%;
-
+    background: rgba(55, 2, 25, 1);
   }
 
     .v1_about_us_img1 {
