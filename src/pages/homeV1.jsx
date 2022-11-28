@@ -24,6 +24,7 @@ import newBg from "../assets/riph/riph-bg-again.png";
 import About2 from "../components/section/about/v2/About";
 import Team2 from "../components/section/team/v4";
 import Footer3 from "../components/section/footer/v3";
+import Footer12 from "../components/section/footer2/Footer";
 
 const HomeV1 = () => {
   const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
@@ -52,6 +53,7 @@ const HomeV1 = () => {
       <CharacterSlider /> 
       {/* Add another signup form here */}
       <Footer />
+      <Footer12 />
     </Layout>
   );
 };
