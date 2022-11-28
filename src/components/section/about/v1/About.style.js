@@ -21,10 +21,10 @@ const AboutStyleWrapper = styled.section`
       font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 500;
-      font-size: 32px;
-      line-height: 28px;
+      font-size: 28x;
+      line-height: 20px;
       color: #ffffff;
-      padding-bottom: 40px;
+      padding-bottom: 20px;
     }
 
     p {
@@ -32,9 +32,9 @@ const AboutStyleWrapper = styled.section`
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
-      line-height: 28px;
+      line-height: 20px;
       color: rgba(255, 255, 255, 0.8);
-      padding-bottom: 40px;
+      padding-bottom: 20px;
     }
 
     h3 {

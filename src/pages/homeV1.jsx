@@ -41,10 +41,10 @@ const HomeV1 = () => {
       {/*<center>
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
   </center>*/}
-      <About /> {/* Game debrief*/} {/* Add another ABOUT US section below the team section -> specifically about Rambe games */}
-      <Banner />
+      <About />
+      {/*<Banner /> {/* Game debrief*/} {/* Add another ABOUT US section below the team section -> specifically about Rambe games */}
       <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
-      <center><Counter /></center>
+      {/*<center><Counter /></center>*/}
       <center> {/* Move this video into a styled component and add top and bottom padding/border aligned with rest of global styles */}
         <video src={video1} width="100%" height="30%" autoPlay={true} loop="true" border-radius="15px" muted/>
       </center>

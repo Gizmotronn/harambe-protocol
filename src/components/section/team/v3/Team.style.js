@@ -41,7 +41,7 @@ const TeamStyleWrapper = styled.section`
     position: center;
     width: 100%;
     height: 100%;
-    background: #212121;
+    background: #121111;
     z-index: 1;
     border-radius: 15px;
   }

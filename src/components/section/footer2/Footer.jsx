@@ -45,21 +45,29 @@ const Footer12 = () => {
                         <a href="# ">
                           <FaDiscord />
                         </a>
+                        &nbsp;
+                        &nbsp;
                         <a href="# ">
                           <FaTwitter />
                         </a>
+                        &nbsp;
+                        &nbsp;
                         <a href="# ">
                           <FaFacebook />
                         </a>
+                        &nbsp; 
+                        &nbsp;
                         <a href="# ">
                           <FaInstagram />
                         </a>
+                        &nbsp;
+                        &nbsp;
                         <a href="# ">
                           <FaWallet />
                         </a>
                       </p>
                     </div>
-                      Copyright © 2022 Harambe Protocol / Riph
+                      Copyright © 2022 Rambe Games
                     </p>
                   </div>
                 </div>

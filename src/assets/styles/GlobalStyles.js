@@ -24,7 +24,7 @@ body {
     line-height: 1.6;
     font-weight: 500;
     overflow-x: hidden; 
-    background-color: #212121 !important;
+    background-color: #121111 !important;
 }
 
 img {

@@ -1,7 +1,7 @@
 import SectionTitle from "../../../../common/sectionTitle";
 
 import AboutInfoCardList from "../aboutInfoCardList";
-
+import Banner from "../../banner/v1";
 import data from "../../../../assets/data/about/aboutv1";
 import aboutThumb1 from "../../../../assets/images/nft/about_us_img1.png";
 import aboutThumb2 from "../../../../assets/images/nft/about_us_img2.png";
@@ -34,9 +34,7 @@ const About = () => {
                 <p>
                   Will greed and deceit undo your districts economy? Or will the chaos make it thrive?
                 </p>
-                
               </div>
-              
             </div>
           </div>
           <div className="col-md-6">
@@ -72,8 +70,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <br />
-        <br />
+        <Banner />
         <RiphDropdown />
         <br />
         <br />

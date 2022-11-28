@@ -37,7 +37,7 @@ const Banner = () => {
                 </Button>
               </div>
               <div className="coin-info">
-                <span>Max TBA Harambians per wallet</span> {/* Bolden the TBA */}
+                <span color='#cc1010'>Max TBA Harambians per wallet</span> {/* Bolden the TBA */}
                 <span>Public mint price: TBA</span>
                 <span>ERC20 Presale : Launching on Opensea</span>
               </div>

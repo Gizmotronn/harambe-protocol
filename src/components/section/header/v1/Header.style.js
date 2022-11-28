@@ -16,7 +16,7 @@ const NavWrapper = styled.nav`
       position: fixed;
       top: 0;
       width: 100%;
-      background: rgba(33, 33, 33, 0.8);
+      background: rgba(18, 17, 17, 0.8);
       backdrop-filter: blur(15px);
       z-index: 1000;
       transition: all 0.2s;
