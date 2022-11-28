@@ -1,5 +1,5 @@
 //import CTA from "../../cta/v1";
-
+import { FaDiscord, FaTwitter, FaWallet, FaInstagram, FaFacebook } from "react-icons/fa";
 import { footerLinksV1 } from "../../../assets/data/insiteLinks.js";
 import footerLogo from "../../../assets/riph/sitelogo.png";
 import backToTopIcon from "../../../assets/images/icon/back_to_top.svg";
@@ -35,9 +35,32 @@ const Footer12 = () => {
                     <a href="# ">
                       <img src={footerLogo} alt="hp logo" />
                     </a>
+                    
   </div>*/}
                   <div className="copiright_text">
-                    <p>Copyright © 2022 Harambe Protocol / Riph</p>
+                    
+                    <p>
+                    <div className="mobile_menu_social_links">
+                      <p>
+                        <a href="# ">
+                          <FaDiscord />
+                        </a>
+                        <a href="# ">
+                          <FaTwitter />
+                        </a>
+                        <a href="# ">
+                          <FaFacebook />
+                        </a>
+                        <a href="# ">
+                          <FaInstagram />
+                        </a>
+                        <a href="# ">
+                          <FaWallet />
+                        </a>
+                      </p>
+                    </div>
+                      Copyright © 2022 Harambe Protocol / Riph
+                    </p>
                   </div>
                 </div>
                 <a href="# " className="bact_to_top_btn">

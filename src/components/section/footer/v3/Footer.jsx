@@ -58,17 +58,6 @@ const Footer = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
               <div className="footer-menu footer_newsletter">
                 <h1 className="menu-title">WILL YOU ASCEND?</h1>
                 <h5 className="menu-title">Pre-Register now!</h5>

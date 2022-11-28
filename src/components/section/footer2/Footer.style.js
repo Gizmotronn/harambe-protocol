@@ -76,6 +76,18 @@ const FooterStyleWrapper = styled.footer`
       justify-content: flex-start;
       height: 100%;
 
+    .mobile_menu_social_links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px;
+      margin-top: 30px;
+      svg {
+        font-size: 20px;
+        color: #cc1010;
+      }
+    }
+
       .copiright_text {
         p {
           margin: 0 0 0 40px;
