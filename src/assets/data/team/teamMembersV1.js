@@ -11,7 +11,7 @@ import avatarThumb8 from "../../images/team/crew_avatar8.png";
 import Alex from "../../riph/Alex.jpg";
 import Jai from "../../riph/BigTurnz.jpeg"; //"../../riph/BigTurnz.png";
 import KYU from "../../riph/ksuu.jpg"; //"../../riph/KYU.jpg";
-import AlexH from "../../riph/alexh.png";
+import AlexH from "../../riph/AlexH.png";
 import hard from "../../riph/hard.png";
 import JaiH from "../../riph/JaiH.png";
 import KyuH from "../../riph/KyuH.png";

@@ -51,8 +51,8 @@ const HomeV1 = () => {
       <HowToMint />
       <Team />
       <CharacterSlider /> 
-      {/* Add another signup form here */}
-      <Footer />
+      {/* Add another signup form here 
+      <Footer />*/}
       <Footer12 />
     </Layout>
   );
