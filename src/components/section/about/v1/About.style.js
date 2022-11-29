@@ -15,7 +15,7 @@ const AboutStyleWrapper = styled.section`
 
   /* right */
   .v1_about_us_right_text {
-    margin-top: 46px;
+    margin-top: 30px;
 
     h1 {
       font-family: "PT Sans", sans-serif;
@@ -24,7 +24,7 @@ const AboutStyleWrapper = styled.section`
       font-size: 24x;
       line-height: 2px;
       color: #ffffff;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
     }
 
     p {
@@ -34,7 +34,7 @@ const AboutStyleWrapper = styled.section`
       font-size: 13px;
       line-height: 15px;
       color: rgba(255, 255, 255, 0.8);
-      padding-bottom: 20px;
+      padding-bottom: 15px;
     }
 
     h3 {
@@ -44,7 +44,7 @@ const AboutStyleWrapper = styled.section`
       font-size: 16px;
       line-height: 28px;
       color:  #ffffff;
-      padding-bottom: 40px;
+      padding-bottom: 30px;
     }
   }
 

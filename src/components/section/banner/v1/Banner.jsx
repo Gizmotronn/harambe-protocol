@@ -4,7 +4,7 @@ import Button from "../../../../common/button";
 import BannerV1Wrapper from "./Banner.style";
 import { useEffect, useState } from "react";
 import { totalMintCount } from '../../../../utils/web3mint'; 
-import harambe from '../../../../assets/riph/harambe1.png'
+import harambe from '../../../../assets/riph/Army.png'
 import clickAudio from "../../../../assets/riph/sound1.mp3";
  
 const Banner = () => {
@@ -25,7 +25,7 @@ const Banner = () => {
     <BannerV1Wrapper id="home">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <div className="riph_v1_baner_right">
               <div className="riph_v1_baner_right_img_sect">
                 <div className="riph_v1_baner_right_img">
@@ -34,7 +34,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="riph_v1_baner_left">
               <h2>MINTING SOON!</h2>
               <h3>

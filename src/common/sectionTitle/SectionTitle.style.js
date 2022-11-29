@@ -3,6 +3,7 @@ import styled from "styled-components";
 const SectionTitleWrapper = styled.div`
   position: relative;
   z-index: 1;
+  padding-top: 8px;
 
   h2 {
     font-family: "PT Sans", sans-serif;

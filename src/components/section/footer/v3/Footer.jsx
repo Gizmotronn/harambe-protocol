@@ -2,7 +2,7 @@ import FooterBottom from "./footerBottom/FooterBottom";
 
 import data from "../../../../assets/data/footer/footerDataV3";
 import footerLogo from "../../../../assets/images/logo.png";
-import btnArrow from "../../../../assets/images/blog/arrow-icon.png";
+import btnArrow from '../../../../assets/images/icon/arrow-icon-white.png';
 import bgImage2 from "../../../../assets/riph/dvstrip.png";
 
 import FooterStyleWrapper from "./Footer.style";

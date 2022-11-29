@@ -21,10 +21,10 @@ const BannerV1Wrapper = styled.section`
 
   .riph_v1_baner_left {
     max-width: 500px;
-    width: 100%;
+    width: 150%;
     min-height: 550px;
     display: flex;
-    align-items: flex;
+    align-items: right;
     justify-content: center;
     flex-direction: column;
 
@@ -79,10 +79,11 @@ const BannerV1Wrapper = styled.section`
     max-width: 500px;
     width: 100%;
     margin-right: auto;
+    align-items: right;
 
     .mint_live_circle_sect {
       display: flex;
-      align-items: center;
+      align-items: right;
       justify-content: center;
       height: 140px;
       width: 140px;
@@ -131,8 +132,9 @@ const BannerV1Wrapper = styled.section`
 
       .riph_v1_baner_right_img {
         position: relative;
-        width: 80%;
-        height: 80%;
+        margin-top: 30px;
+        width: 75%;
+        height: 75%;
         z-index: 1;
       }
     }
