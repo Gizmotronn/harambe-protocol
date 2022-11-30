@@ -1,96 +1,36 @@
-//import CTA from "../../cta/v1";
-import { FaDiscord, FaTwitter, FaWallet, FaInstagram, FaFacebook } from "react-icons/fa";
-import { footerLinksV1 } from "../../../assets/data/insiteLinks.js";
-import footerLogo from "../../../assets/riph/sitelogo.png";
-import backToTopIcon from "../../../assets/images/icon/back_to_top.svg";
+import FooterBottom from "./footerBottom/FooterBottom";
 
-import characterShape from "../../../assets/images/nft/3_chr_img.png";
-import footerShapesLeft from "../../../assets/images/icon/footer_shapes_left.png";
-import footerShapesRight from "../../../assets/images/icon/footer_shapes_right.png";
+import data from "../../../assets/data/footer/footerDataV3";
+import footerLogo from "../../../assets/images/logo.png";
+import btnArrow from "../../../assets/images/blog/arrow-icon.png";
 
 import FooterStyleWrapper from "./Footer.style";
-const Footer12 = () => {
+const Footer = () => {
   return (
     <FooterStyleWrapper>
-      {/*<CTA />*/}
-
-      <div className="bithu_v1_main_footer">
-        {/*<div className="bithu_v1_main_footer_overlay"></div>
-        <div className="three_charectre_img">
-          <img src={characterShape} alt="bithu nft character" />
-  </div>*/}
-
-        <div className="footer_bottom">
-          <div className="footer_bottom_content">
-            {/*<span className="footer_shapes_left">
-              <img src={footerShapesLeft} alt="bithu nft footer" />
-            </span>
-            <span className="footer_shapes_right">
-              <img src={footerShapesRight} alt="bithu nft footer" />
-  </span>*/}
-            <div className="container">
-              <div className="footer_menu">
-                <div className="bottom_footer_left">
-                  {/*<div className="footer_logo">
-                    <a href="# ">
-                      <img src={footerLogo} alt="hp logo" />
-                    </a>
-                    
-  </div>*/}
-                  <div className="copiright_text">
-                    
-                    <p>
-                    <div className="mobile_menu_social_links">
-                      <ul>
-                        <li>
-                          <a href="/staking">Staking</a>
-                        </li>
-                        <li>
-                          <a href="/staking">Staking</a>
-                        </li>
-                        <li>
-                          <a href="/staking">Staking</a>
-                        </li>
-                        <li>
-                          <a href="/staking">Staking</a>
-                        </li>
-                      </ul>
-                      <p>
-                        <a href="# ">
-                          <FaDiscord />
-                        </a>
-                        &nbsp;
-                        &nbsp;
-                        <a href="# ">
-                          <FaTwitter />
-                        </a>
-                        &nbsp;
-                        &nbsp;
-                        <a href="# ">
-                          <FaFacebook />
-                        </a>
-                        &nbsp; 
-                        &nbsp;
-                        <a href="# ">
-                          <FaInstagram />
-                        </a>
-                        &nbsp;
-                        &nbsp;
-                        <a href="# ">
-                          <FaWallet />
-                        </a>
-                      </p>
-                    </div>
-                      Copyright © 2022 Rambe Games
-                    </p>
-                  </div>
-                </div>
-                <a href="# " className="bact_to_top_btn">
-                  <img src={backToTopIcon} alt="hp back to top" />
+      <div className="top-footer-content">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="footer_image">
+                <a href="# ">
+                  <img src={footerLogo} alt="bithu nft footer logo" />
                 </a>
-                <div className="bottom_footer_right">
-                  <ul>
-                    {footerLinksV1?.map((item, i) => (
+                <p>
+                  Bithu is great solution for launch your NFT for minting. It
+                  uses a dictionary over 200 Latin words, combined with a
+                  handful.
+                </p>
+              </div>
+            </div>
+
+            {/* link widgets  */}
+            {data?.map((menu, i) => (
+              <div key={i} className=" col-sm-6 col-md-3 col-lg-2 link-widgets">
+                <div className="footer-menu">
+                  <h5 className="menu-title">{menu.widgetName}</h5>
+                  <ul className="menu-list">
+                    {menu.items?.map((item, i) => (
                       <li key={i}>
                         <a href={item.url}>{item.title}</a>
                       </li>
@@ -98,12 +38,30 @@ const Footer12 = () => {
                   </ul>
                 </div>
               </div>
+            ))}
+            <div className="col-md-6 col-lg-4">
+              <div className="footer-menu footer_newsletter">
+                <h5 className="menu-title">Subscribe Newsletter</h5>
+                <div className="form-box">
+                  <input
+                    type="text"
+                    name="text"
+                    placeholder="Email address"
+                    required
+                  />
+                  <button>
+                    <img src={btnArrow} alt="bithu nft arrow" />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {/* footer bottom  */}
+      <FooterBottom />
     </FooterStyleWrapper>
   );
 };
 
-export default Footer12;
+export default Footer;
