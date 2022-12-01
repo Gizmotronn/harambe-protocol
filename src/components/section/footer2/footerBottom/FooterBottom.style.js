@@ -40,7 +40,7 @@ const FooterBottomStyleWrapper = styled.div`
     height: 100%;
     .copyright_text {
       color: rgba(255, 255, 255, 0.8);
-      font-family: "Inter";
+      font-family: "PT Sans", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;

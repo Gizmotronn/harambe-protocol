@@ -19,14 +19,6 @@ const data = [
     url: "#",
   },
   {
-    icon: <FaLinkedinIn />,
-    url: "#",
-  },
-  {
-    icon: <FaFacebook />,
-    url: "#",
-  },
-  {
     icon: <FaInstagram />,
     url: "#",
   },

@@ -3,6 +3,7 @@ import FooterBottom from "./footerBottom/FooterBottom";
 import data from "../../../assets/data/footer/footerDataV3";
 import footerLogo from "../../../assets/images/logo.png";
 import btnArrow from "../../../assets/images/blog/arrow-icon.png";
+import logo from "../../../assets/riph/rambe.png";
 
 import FooterStyleWrapper from "./Footer.style";
 const Footer = () => {
@@ -14,12 +15,10 @@ const Footer = () => {
             <div className="col-lg-4">
               <div className="footer_image">
                 <a href="# ">
-                  <img src={footerLogo} alt="bithu nft footer logo" />
+                  <img src={logo} alt="riph footer logo" height="25%" width="25%"/>
                 </a>
                 <p>
-                  Bithu is great solution for launch your NFT for minting. It
-                  uses a dictionary over 200 Latin words, combined with a
-                  handful.
+                Created in honour of Harambe, we're dedicated to passively funding gorilla conservation efforts through our NFT revenue.
                 </p>
               </div>
             </div>
@@ -39,9 +38,9 @@ const Footer = () => {
                 </div>
               </div>
             ))}
-            <div className="col-md-6 col-lg-4">
+            {/*<div className="col-md-6 col-lg-4">
               <div className="footer-menu footer_newsletter">
-                <h5 className="menu-title">Subscribe Newsletter</h5>
+                <h5 className="menu-title">Subscribe to our newsletter</h5>
                 <div className="form-box">
                   <input
                     type="text"
@@ -54,7 +53,7 @@ const Footer = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>

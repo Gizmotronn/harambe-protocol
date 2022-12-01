@@ -10,7 +10,7 @@ const FooterBottom = () => {
           <div className="footer_menu">
             <div className="bottom_footer_left">
               <div className="copyright_text">
-              Copyright ©2022 Riph.io & Liam Arbuckle
+              Copyright ©2022 Rambe Games
               </div>
             </div>
             <a href="# " className="bact_to_top_btn">
