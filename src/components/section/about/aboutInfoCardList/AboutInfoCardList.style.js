@@ -3,11 +3,13 @@ import styled from "styled-components"
 
 const AboutInfoCardListWrapper = styled.div` 
     position: relative;
-    margin-top: 120px; 
+    margin-top: 80px; 
     z-index: 1;
     border-radius: 15px;
-    margin-left: 320px;
-
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     @media only screen and (max-width: 991px) {
         .about_us_text_card_sect {

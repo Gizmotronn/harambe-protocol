@@ -76,7 +76,7 @@ const About = () => {
         <br />
         <br />
         <br />
-        <center><AboutInfoCardList /></center>
+        {/*<center><AboutInfoCardList /></center>*/}
       </div>
     </AboutStyleWrapper>
   );

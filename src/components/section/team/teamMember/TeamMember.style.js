@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
-const TeamMemberStyleWrapper = styled.article`
+const TeamMemberStyleWrapper = styled.article` 
   .riph_team_card {
-    max-width: 100%;
-    height: 375px;
+    max-width: 80%;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius: 25px;
+    border-radius: 0px;
+
     h3 {
       color: #ffffff;
       font-size: 24px;
@@ -37,8 +38,9 @@ const TeamMemberStyleWrapper = styled.article`
 
     .harambian {
       position: absolute;
-      top: 180px;
+      top: 140px;
       margin-left: -75px;
+      border-radius: 40px;
     }
   }
 

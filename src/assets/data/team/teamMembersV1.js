@@ -54,7 +54,7 @@ const data = [
   },
   {
     avatar: KYU,
-    name: "KYU",
+    name: "KSU",
     designation: "Artist",
     harambe: KyuH,
     socialLinks: [
@@ -68,7 +68,7 @@ const data = [
     avatar: avatarThumb4,
     name: "Anna",
     designation: "Community",
-    harambe: AnnaH,
+    harambe: KyuH,
     socialLinks: [
       {
         icon: <FaTwitter />,

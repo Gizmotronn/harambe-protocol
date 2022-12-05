@@ -31,7 +31,7 @@ const Footer = () => {
                   <ul className="menu-list">
                     {menu.items?.map((item, i) => (
                       <li key={i}>
-                        <a href={item.url}>{item.title}</a>
+                        <a href={item.url}><img src={item.img} height="10%" width="10%"></img> {item.title}</a>
                       </li>
                     ))}
                   </ul>

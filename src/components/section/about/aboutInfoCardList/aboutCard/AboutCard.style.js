@@ -4,15 +4,15 @@ const AboutCardStyleWrapper = styled.article`
   background: rgba(255, 255, 255, 0.05);
   width: 100%;
   min-height: 220px;
-  padding: 35px;
-  border-radius: 15px;
+  min-width: 320px;
+  border-radius: 5px;
 
   h3 {
     font-family: "PT Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 80px;
     color: #ffffff;
 
     img {

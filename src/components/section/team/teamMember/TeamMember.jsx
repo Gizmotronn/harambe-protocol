@@ -8,7 +8,7 @@ const TeamMember = ({ avatar, name, designation, socialLinks, harambe }) => {
         <center>
           <div className="team_member_img">
             <img src={avatar} alt="riph nft team avatar" height="85%" width="85%" />
-            <img class="harambian" src={harambe} height="10%" width="10%" />
+            <img class="harambian" src={harambe} height="7%" width="7%" />
           </div>
         </center>
         <h3>{name}</h3>

@@ -25,6 +25,7 @@ import About2 from "../components/section/about/v2/About";
 import Team2 from "../components/section/team/v4";
 import Footer3 from "../components/section/footer/v3";
 import Footer12 from "../components/section/footer2/Footer";
+import AboutInfoCardList from "../components/section/about/aboutInfoCardList";
 
 const HomeV1 = () => {
   const { visibility, walletModalvisibility, metamaskModalVisibility, connectWalletModal } = useModal();
@@ -42,9 +43,20 @@ const HomeV1 = () => {
         <video src={video} autoPlay="true" loop="true" width="100%" height="30%"/>
   </center>*/}
       <About />
+      <AboutInfoCardList />
       {/*<Banner /> {/* Game debrief*/} {/* Add another ABOUT US section below the team section -> specifically about Rambe games */}
       <CharacterSlider2 /> {/* Will change nft card design later, curve with border-radius for now */}
       {/*<center><Counter /></center>*/}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <center> {/* Move this video into a styled component and add top and bottom padding/border aligned with rest of global styles */}
         <video src={video1} width="100%" height="30%" autoPlay={true} loop="true" border-radius="15px" muted/>
       </center>

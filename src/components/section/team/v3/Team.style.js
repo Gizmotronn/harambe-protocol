@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TeamStyleWrapper = styled.section`
-  margin-top: 20px;
+  margin-top: 15px;
   background: rgba(333, 333, 33, 0.1); 
   backdrop-filter: blur(5px);
   position: center;
@@ -20,11 +20,11 @@ const TeamStyleWrapper = styled.section`
 
   h3 {
     color: #ffffff;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 34px;
+    line-height: 24px;
     text-align: center;
-    margin-top: 28px;
-    margin-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 2px;
   }
 
   h4 {
@@ -32,7 +32,7 @@ const TeamStyleWrapper = styled.section`
     font-family: "PT Sans", sans-serif;
     font-style: normal;
     text-align: center;
-    line-height: 19px;
+    line-height: 16px;
     margin: 0;
   }
 
@@ -47,7 +47,7 @@ const TeamStyleWrapper = styled.section`
   }
 
   .riph_team_content {
-    margin-top: 53px; 
+    margin-top: 20px; 
     position: relative;
     z-index: 1;
     .row {

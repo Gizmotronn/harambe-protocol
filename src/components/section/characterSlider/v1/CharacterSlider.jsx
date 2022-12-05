@@ -3,7 +3,7 @@ import data from "../../../../assets/data/characterSlider/characterSlider";
 import SectionTitle from "../../../../common/sectionTitle";
 import HowToMintWrapper from "../../howToMint/v1/HowToMint.style";
 
-import CharacterSliderWrapper from "./CharacterSlider.style";
+import CharacterSliderWrapper from "./CharacterSlider.style"; 
 
 const CharacterSlider = () => {
   const settings = {

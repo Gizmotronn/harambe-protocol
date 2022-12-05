@@ -9,6 +9,8 @@ const AboutStyleWrapper = styled.section`
   background-repeat: no-repeat;
   min-height: 901px;
   padding-top: 30px;
+  padding-right: 300px;
+  padding-left: 300px;
   p {
     margin-bottom: 0;
   }
@@ -22,7 +24,7 @@ const AboutStyleWrapper = styled.section`
       font-style: normal;
       font-weight: 500;
       font-size: 24x;
-      line-height: 2px;
+      line-height: 40px;
       color: #ffffff;
       padding-bottom: 30px;
     }

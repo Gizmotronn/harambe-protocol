@@ -17,11 +17,13 @@ const BannerV1Wrapper = styled.section`
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  margin-top: 70px;
+  margin-top: 240px;
+  padding-right: 50px;
+  padding-left: 50px;
 
   .riph_v1_baner_left {
     max-width: 500px;
-    width: 150%;
+    width: 140%;
     min-height: 550px;
     display: flex;
     align-items: right;
@@ -42,11 +44,11 @@ const BannerV1Wrapper = styled.section`
     h3 {
       font-family: "PT Sans", sans-serif;
       font-style: normal;
-      font-weight: 400;
-      font-size: 35px;
+      font-weight: 400; 
+      font-size: 30px;
       line-height: 30px;
       text-transform: uppercase;
-      color: #cc1010;
+      color: #962323;
     }
 
     .banner_buttons {

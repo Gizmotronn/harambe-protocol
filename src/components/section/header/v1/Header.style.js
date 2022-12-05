@@ -4,7 +4,7 @@ import styled from "styled-components";
 const NavWrapper = styled.nav`
   z-index: 999;
   &.riph_header {
-    margin-left: -58px;
+    margin-right: 0px;
     top: 0;
     left: 0;
     width: 100%;
@@ -32,7 +32,7 @@ const NavWrapper = styled.nav`
   }
 
   .riph_menu_left_sect {
-    width: 40%;
+    width: 100%;
 
     .logo {
       a {

@@ -6,6 +6,8 @@ const CharacterSliderWrapper = styled.section`
   width: 77%;
   position: center;
   margin-top: 5px;
+  margin-left: 80px;
+  margin-right: 80px;
 
   .slick-slider {
     .slick-list {
@@ -27,7 +29,8 @@ const CharacterSliderWrapper = styled.section`
   }
 
   .character-thumb {
-    height: 280px;
+    height: 200px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
