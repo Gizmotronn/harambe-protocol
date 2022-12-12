@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FooterBottomStyleWrapper = styled.div`
-  background: rgba(255, 255, 255, 0.05);
+  background: #121111;
   backdrop-filter: blur(20px);
   .footer_bottom_content {
     position: relative;
@@ -36,7 +36,7 @@ const FooterBottomStyleWrapper = styled.div`
   .bottom_footer_left {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     height: 100%;
     .copyright_text {
       color: rgba(255, 255, 255, 0.8);

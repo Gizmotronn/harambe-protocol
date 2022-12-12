@@ -13,8 +13,8 @@ const FooterStyleWrapper = styled.footer`
   }
   /* footer top  */
   .top-footer-content {
-    min-height: 1000px;
-    padding-top: 100px;
+    min-height: 730px;
+    padding-top: 200px;
     background: url(${footerBG});
     background-position: center;
     background-size: cover;

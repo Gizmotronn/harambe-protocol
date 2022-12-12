@@ -1,29 +1,18 @@
 import FooterBottom from "./footerBottom/FooterBottom";
-
+import FooterBottomTop from './footerBottom/FooterBottomTop';
 import data from "../../../assets/data/footer/footerDataV3";
 import footerLogo from "../../../assets/images/logo.png";
 import btnArrow from "../../../assets/images/blog/arrow-icon.png";
-import logo from "../../../assets/riph/rambe.png";
-
+import logo from "../../../assets/riph/rambecenter.png";
 import FooterStyleWrapper from "./Footer.style";
+
 const Footer = () => {
   return (
     <FooterStyleWrapper>
       <div className="top-footer-content">
         <div className="container">
+          <FooterBottomTop />
           <div className="row">
-            <div className="col-lg-4">
-              <div className="footer_image">
-                <a href="# ">
-                  <img src={logo} alt="riph footer logo" height="25%" width="25%"/>
-                </a>
-                <p>
-                Created in honour of Harambe, we're dedicated to passively funding gorilla conservation efforts through our NFT revenue.
-                </p>
-              </div>
-            </div>
-
-            {/* link widgets  */}
             {data?.map((menu, i) => (
               <div key={i} className=" col-sm-6 col-md-3 col-lg-2 link-widgets">
                 <div className="footer-menu">

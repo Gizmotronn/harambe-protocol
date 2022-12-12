@@ -10,26 +10,8 @@ const FooterBottom = () => {
           <div className="footer_menu">
             <div className="bottom_footer_left">
               <div className="copyright_text">
-              Copyright ©2022 Rambe Games
+              Copyright ©2022 Rambe Games. All Rights Reserved.
               </div>
-            </div>
-            <a href="# " className="bact_to_top_btn">
-              <img src={backToTopIcon} alt="bithu nft back to top" />
-            </a>
-            <div className="bottom_footer_right">
-              <ul>
-                {data?.map((item, i) => (
-                  <li key={i}>
-                    <a href={item.url}>
-                      {item.thumb ? (
-                        <img src={item.thumb} alt="bithu nft social" />
-                      ) : (
-                        item.icon
-                      )}
-                    </a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>

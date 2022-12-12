@@ -8,14 +8,39 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 
-const data = [ 
+const data = [
+  {
+    widgetName: "",
+    items: [
+      {
+        title: "",
+        url: "#",
+        img: "",
+      },
+      {
+        title: "",
+        url: "#",
+        img: "",
+      },
+      {
+        title: "",
+        url: "#",
+        img: "",
+      },
+      {
+        title: "",
+        url: "#",
+        img: "",
+      }
+    ],
+  },
     {
-      widgetName: "Site map",
+      widgetName: "",
       items: [
         {
           title: "Home",
           url: "/",
-          img: "https://cdn-icons-png.flaticon.com/512/25/25694.png",
+          img: "https://cdn-icons-png.flaticon.com/512/2312/2312493.png",
         },
         {
           title: "About",
@@ -28,78 +53,78 @@ const data = [
           img: "https://cdn-icons-png.flaticon.com/512/2116/2116981.png",
         },
         {
-          title: "FAQ",
+          title: "Buy on Pancake Swap",
           url: "#faq",
-          img: "https://cdn-icons-png.flaticon.com/512/2312/2312493.png",
+          img: "https://cryptologos.cc/logos/pancakeswap-cake-logo.png",
         },
       ],
     },
+    
     {
-      widgetName: "Site map Pt 2",
+      widgetName: "",
       items: [
         {
-          title: "Whitepaper",
+          title: "",
           url: "#",
-          img: "https://findicons.com/files/icons/2813/flat_jewels/512/file.png",
+          img: "",
         },
         {
-          title: "Terms & Conditions",
+          title: "",
           url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/3373/3373707.png",
+          img: "",
         },
         {
-          title: "Privacy Policy",
+          title: "",
           url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/251/251116.png",
+          img: "",
         },
         {
-          title: "Articles",
+          title: "",
           url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/4371/4371313.png",
+          img: "",
         }
       ],
     },
     {
-      widgetName: "Buy $RIPH",
+      widgetName: "",
       items: [
         {
-          title: "Available on SushiSwap",
+          title: "",
           url: "#",
-          img: "https://cryptologos.cc/logos/sushiswap-sushi-logo.png",
+          img: "",
         },
         {
-          title: "Current price: $65^^",
+          title: "",
           url: "#",
-          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/480px-Ethereum-icon-purple.svg.png",
+          img: "",
         },
+        {
+          title: "",
+          url: "#",
+          img: "",
+        },
+        {
+          title: "",
+          url: "#",
+          img: "",
+        }
       ],
     },
     {
-      widgetName: "Our Socials",
+      widgetName: "",
       items: [
         {
-          title: "",
+          title: "Terms & Conditions",
           url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
+          img: "",
         },
         {
-          title: "",
+          title: "Privacy Policy",
           url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
-        },
-        {
-          title: "",
-          url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
-        },
-        {
-          title: "",
-          url: "#",
-          img: "https://cdn-icons-png.flaticon.com/512/5968/5968906.png",
+          img: "",
         },
       ],
     },
-
 ]
 
 export default data;

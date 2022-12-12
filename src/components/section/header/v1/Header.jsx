@@ -29,17 +29,7 @@ const Header = () => {
   }
   useEffect(() => {
     const header = document.getElementById("navbar");
-    const handleScroll = window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 50) {
-        header.classList.add("sticky");
-      } else {
-        header.classList.remove("sticky");
-      }
-    });
-
-    return () => {
-      window.removeEventListener("sticky", handleScroll);
-    };
+    header.classList.add("sticky");
   }, []);
 
   useEffect(() => {
