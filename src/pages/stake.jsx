@@ -16,7 +16,7 @@ import MetamaskModal from "../common/modal/metamask/MetamaskModal";
 import ConnectWallet from "../common/modal/metamask/ConnectWallet";
 import video from "../assets/riph/video.mp4";
 import video1 from "../assets/riph/video2.mp4";
-import roadmapImg from "../assets/riph/Roadmap.png";
+import roadmapImg from "../assets/riph/roadmap.png";
 import CharacterSlider2 from "../components/section/characterSlider/v3/";
 import CustomForm from "../components/mailchimp";
 import FAQRoadmap from "../components/section/faq/faq-roadmap/Faq";
